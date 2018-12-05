@@ -135,6 +135,7 @@ public class PlayerController : MonoBehaviour
 
     public void Action()
     {
+        //Add action depending on the actionTarget also implement layerMask to the trigger
         if (actionTarget != null)
             Debug.Log("Target is: " + gameObject.name);
     }
