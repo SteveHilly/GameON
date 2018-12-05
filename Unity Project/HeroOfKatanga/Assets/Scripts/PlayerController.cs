@@ -18,6 +18,13 @@ public class PlayerController : MonoBehaviour
     bool moveRight = false;
     bool moveLeft = false;
 
+    int health = 3;
+    bool playerDead = false;
+
+    [SerializeField]
+    GameObject actionTrigger;
+    GameObject actionTarget;
+
 
     public LayerMask ground;
 
@@ -59,8 +66,6 @@ public class PlayerController : MonoBehaviour
                 moveDistance += 0.05f;
         }
 
-        //if (moveDistance != null)
-
         if (moveLeft & moveRight)
             moveDistance = 0f;
 
@@ -81,7 +86,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         myRB.MovePosition(myRB.position + inputs * speed * Time.fixedDeltaTime);
-        //Debug.Log(moveDistance);
     }
 
     public void RightArrowButtonDown()
@@ -108,5 +112,41 @@ public class PlayerController : MonoBehaviour
     {
         if (grounded)
             myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+    }
+
+    void GetHealth(int value)
+    {
+        health += value;
+        if (health > 3)
+            health = 3;
+    }
+
+    void LoseHealth(int value)
+    {
+        health -= value;
+        if (health <= 0)
+            playerDead = true;
+    }
+
+    void Dead()
+    {
+        //call GameController for dead function
+    }
+
+    public void Action()
+    {
+        if (actionTarget != null)
+            Debug.Log("Target is: " + gameObject.name);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        actionTarget = other.gameObject;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (actionTarget = other.gameObject)
+            actionTarget = null;
     }
 }
