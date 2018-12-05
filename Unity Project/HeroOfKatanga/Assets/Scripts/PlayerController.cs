@@ -30,8 +30,12 @@ public class PlayerController : MonoBehaviour {
         grounded = Physics.CheckSphere(groundChecker.position, groundDistance,ground,QueryTriggerInteraction.Ignore);
 
 
+
         inputs = Vector3.zero;
         inputs.x = Input.GetAxis("Horizontal");
+        Debug.Log(Input.GetAxis("Horizontal"));
+
+        
 
         if (inputs != Vector3.zero)
             transform.forward = inputs;
