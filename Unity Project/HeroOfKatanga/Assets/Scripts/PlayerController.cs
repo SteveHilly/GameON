@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
         if (moveLeft & moveRight)
             moveDistance = 0f;
 
-        if (!moveLeft && !moveRight &&  -0.05f < moveDistance && moveDistance < 0.05f)
+        if (!moveLeft && !moveRight && -0.05f < moveDistance && moveDistance < 0.05f)
             moveDistance = 0f;
 
         inputs.x = moveDistance;
@@ -106,6 +106,7 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
-        myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+        if (grounded)
+            myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
     }
 }
