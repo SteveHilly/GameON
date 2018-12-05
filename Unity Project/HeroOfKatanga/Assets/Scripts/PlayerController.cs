@@ -24,23 +24,18 @@ public class PlayerController : MonoBehaviour
     Rigidbody myRB;
     Vector3 inputs = Vector3.zero;
     private Transform groundChecker;
-    // Use this for initialization
     void Start()
     {
         myRB = GetComponent<Rigidbody>();
         groundChecker = transform.GetChild(0);
     }
 
-    // Update is called once per frame
     private void Update()
     {
         grounded = Physics.CheckSphere(groundChecker.position, groundDistance, ground, QueryTriggerInteraction.Ignore);
 
-
-
         inputs = Vector3.zero;
         inputs.x = Input.GetAxis("Horizontal");
-        //Debug.Log(Input.GetAxis("Horizontal"));
 
         if (moveRight)
         {
@@ -64,8 +59,13 @@ public class PlayerController : MonoBehaviour
                 moveDistance += 0.05f;
         }
 
+        //if (moveDistance != null)
+
         if (moveLeft & moveRight)
-            inputs = Vector3.zero;
+            moveDistance = 0f;
+
+        if (!moveLeft && !moveRight &&  -0.05f < moveDistance && moveDistance < 0.05f)
+            moveDistance = 0f;
 
         inputs.x = moveDistance;
 
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         myRB.MovePosition(myRB.position + inputs * speed * Time.fixedDeltaTime);
-        Debug.Log(moveDistance);
+        //Debug.Log(moveDistance);
     }
 
     public void RightArrowButtonDown()
@@ -102,5 +102,10 @@ public class PlayerController : MonoBehaviour
     public void LeftArrowButtonUp()
     {
         moveLeft = false;
+    }
+
+    public void Jump()
+    {
+        myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
     }
 }
