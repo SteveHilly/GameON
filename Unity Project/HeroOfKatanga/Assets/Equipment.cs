@@ -30,6 +30,7 @@ public class Equipment : MonoBehaviour {
         if (rock == null)
             return;
 
+        rock.transform.parent = null;
         rock.SendMessage("SetKinematic");
         rock.GetComponent<Rigidbody>().AddForce(0, 0, 10f);
         RemoveItem(rock);
