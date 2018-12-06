@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
     bool playerDead = false;
 
     [SerializeField]
-    GameObject actionTrigger;
     GameObject actionTarget;
 
 
@@ -48,6 +47,7 @@ public class PlayerController : MonoBehaviour
         {
             if (moveDistance < 1)
                 moveDistance += 0.05f;
+            gameObject.transform.eulerAngles = Vector3.zero;
         }
         else
         {
@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
         {
             if (moveDistance > -1)
                 moveDistance -= 0.05f;
+            gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else
         {
@@ -74,8 +75,8 @@ public class PlayerController : MonoBehaviour
 
         inputs.x = moveDistance;
 
-        if (inputs != Vector3.zero)
-            transform.forward = inputs;
+        //if (inputs != Vector3.zero)
+        //    transform.forward = inputs;
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
@@ -135,9 +136,16 @@ public class PlayerController : MonoBehaviour
 
     public void Action()
     {
+        if (actionTarget == null)
+            return;
         //Add action depending on the actionTarget also implement layerMask to the trigger
-        if (actionTarget != null)
-            Debug.Log("Target is: " + gameObject.name);
+        if (actionTarget.tag == "Item")
+        {
+            SendMessage("EquipItem", actionTarget);
+            Debug.Log(actionTarget.name);
+        }
+
+
     }
 
     private void OnTriggerEnter(Collider other)
