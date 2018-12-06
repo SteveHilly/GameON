@@ -20,11 +20,19 @@ public class Equipment : MonoBehaviour {
 
     void Throw()
     {
-       /* if (rock.activeInHierarchy == true)
+        GameObject rock = null;
+        for (int i = 0; i < EquiptetItems.Count; i++)
         {
-
+            if (EquiptetItems[i].name == "Rock")
+                rock = EquiptetItems[i];
         }
-       */
+
+        if (rock == null)
+            return;
+
+        rock.SendMessage("SetKinematic");
+        rock.GetComponent<Rigidbody>().AddForce(0, 0, 10f);
+        RemoveItem(rock);
     }
 
     void EquipItem(GameObject item)
@@ -38,7 +46,7 @@ public class Equipment : MonoBehaviour {
         item.SendMessage("SetItem", rockPosition);
     }
 
-    void DestroyItem(GameObject item)
+    void RemoveItem(GameObject item)
     {
         int itemPosition = 0;
         for (int i = 0; i < EquiptetItems.Count; i++)

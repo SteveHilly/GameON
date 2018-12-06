@@ -80,7 +80,8 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
-            myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+            //myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+            SendMessage("Throw");
         }
     }
 
