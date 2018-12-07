@@ -19,7 +19,7 @@ public class Equipment : MonoBehaviour
         //EquiptetItems.Add(rock);
     }
 
-    void Throw()
+    public void Throw()
     {
         GameObject rock = null;
         for (int i = 0; i < EquiptetItems.Count; i++)
