@@ -137,8 +137,24 @@ public class PlayerController : MonoBehaviour
 
     public void Action()
     {
-        if (actionTarget == null)
+        bool throwAction = true;
+        throwAction = gameObject.GetComponent<Equipment>().RockEquipped(throwAction);
+        
+        Debug.Log(throwAction);
+
+        if (throwAction)
+        {
+            SendMessage("Throw");
+            Debug.Log(throwAction);
             return;
+        }      
+
+        if (actionTarget == null)
+        {
+            Debug.Log(throwAction);
+            return;
+        }
+
         //Add action depending on the actionTarget also implement layerMask to the trigger
         if (actionTarget.tag == "Item")
         {
@@ -146,11 +162,42 @@ public class PlayerController : MonoBehaviour
             Debug.Log(actionTarget.name);
         }
 
+        if (actionTarget.tag == "Ladder")
+        {
+            Climb();
+        }
+
+        Debug.Log(throwAction);
+    }
+
+    void Climb()
+    {
+        GameObject target;
+        float offset = 1f;
+        float targetPositionY;
+        Vector3 targetPosition;
+
+        if (actionTarget.name == "Button")
+            target = actionTarget.transform.parent.transform.Find("Top").gameObject;
+        else
+            target = actionTarget.transform.parent.transform.Find("Button").gameObject;
+
+        if (target == null)
+            return;
+
+        targetPositionY = target.transform.position.y + offset;
+        targetPosition = new Vector3(gameObject.transform.position.x, targetPositionY, gameObject.transform.position.z);
+
+
+        Debug.Log(targetPosition);
+        myRB.position = targetPosition;
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "Ground")
+            return;
         actionTarget = other.gameObject;
     }
 

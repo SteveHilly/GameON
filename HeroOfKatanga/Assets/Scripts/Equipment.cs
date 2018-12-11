@@ -62,5 +62,26 @@ public class Equipment : MonoBehaviour
         }
         EquiptetItems.RemoveAt(itemPosition);
     }
+
+    public bool RockEquipped(bool equipped)
+    {
+        GameObject rock = null;
+        for (int i = 0; i < EquiptetItems.Count; i++)
+        {
+            if (EquiptetItems[i].name == "Rock")
+                rock = EquiptetItems[i];
+        }
+
+
+        if (rock == null)
+        {
+            equipped = false;           
+        }
+        else
+        {
+            equipped = true;
+        }
+        return equipped;
+    }
 }
 
