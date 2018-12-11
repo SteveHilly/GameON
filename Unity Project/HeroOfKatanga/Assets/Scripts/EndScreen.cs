@@ -7,6 +7,7 @@ public class EndScreen : MonoBehaviour {
 
     public void EndGame()
     {
+        Destroy(GameObject.FindGameObjectWithTag("GameController"));
         SceneManager.LoadScene(0);
     }
 }
