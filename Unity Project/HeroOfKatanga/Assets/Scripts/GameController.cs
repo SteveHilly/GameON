@@ -28,4 +28,9 @@ public class GameController : MonoBehaviour {
     {
         SceneManager.LoadScene("End");
     }
+
+    public float GetChildCount()
+    {
+        return childCount;
+    }
 }

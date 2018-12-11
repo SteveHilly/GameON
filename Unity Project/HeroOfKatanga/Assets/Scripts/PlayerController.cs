@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     bool grounded = false;
     float moveDistance;
+    [SerializeField]
+    Text childText;
+    float count;
+
 
     bool moveRight = false;
     bool moveLeft = false;
@@ -34,6 +39,8 @@ public class PlayerController : MonoBehaviour
     {
         myRB = GetComponent<Rigidbody>();
         groundChecker = transform.GetChild(0);
+
+        childText.text = count + "/3 Children"; 
     }
 
     private void Update()
@@ -165,6 +172,14 @@ public class PlayerController : MonoBehaviour
         if (actionTarget.tag == "Ladder")
         {
             Climb();
+        }
+
+        if (actionTarget.tag == "Child")
+        {
+            Destroy(actionTarget);
+            count++;
+            GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
+            childText.text = count + "/3 Children";
         }
 
         Debug.Log(throwAction);

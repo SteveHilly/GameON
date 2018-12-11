@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 1596937876}
   - component: {fileID: 1596937875}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ChildCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2187,6 +2187,7 @@ MonoBehaviour:
   jumpHight: 2
   groundDistance: 0.2
   grounded: 1
+  childText: {fileID: 1596937875}
   actionTarget: {fileID: 0}
   ground:
     serializedVersion: 2
