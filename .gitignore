@@ -34,3 +34,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Windows things, macos removes these
+Unity Project/HeroOfKatanga/Assets/Sprites/Characters.meta
+Unity Project/HeroOfKatanga/Assets/Plugins/GitHub/Editor/x64.meta
+Unity Project/HeroOfKatanga/Assets/Plugins/GitHub/Editor/x32.meta
