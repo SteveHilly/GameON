@@ -6,10 +6,15 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
     float childCount = 0;
+    static GameController gameControllerInstance;
 
 	// Use this for initialization
 	void Start () {
         DontDestroyOnLoad(gameObject);
+        if (gameControllerInstance == null)
+            gameControllerInstance = this;
+        else
+            Destroy(gameObject);
 	}
 	
 	// Update is called once per frame
