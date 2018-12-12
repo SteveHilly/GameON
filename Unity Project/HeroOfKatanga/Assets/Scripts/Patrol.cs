@@ -32,7 +32,7 @@ public class Patrol : MonoBehaviour {
 
         if(col.gameObject.tag == "Item")
         {
-            golemHealth = -1; // golem dies when it collides with a thrown rock (is tagged as "Item")
+            golemHealth =- 1; // golem dies when it collides with a thrown rock (is tagged as "Item")
         }
     }
 }
