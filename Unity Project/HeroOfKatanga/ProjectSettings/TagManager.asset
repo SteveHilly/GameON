@@ -8,6 +8,8 @@ TagManager:
   - Ladder
   - Ground
   - Child
+  - Block
+  - Enemy
   layers:
   - Default
   - TransparentFX
