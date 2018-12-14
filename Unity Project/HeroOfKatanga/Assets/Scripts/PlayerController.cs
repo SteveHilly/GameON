@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     bool moveRight = false;
     bool moveLeft = false;
 
-    int health = 3;
+    public int health = 3;
     bool playerDead = false;
 
     [SerializeField]
@@ -214,6 +214,11 @@ public class PlayerController : MonoBehaviour
         if (other.tag == "Ground")
             return;
         actionTarget = other.gameObject;
+
+        if (other.tag == "Enemy")
+        {
+            health = -1;
+        }
     }
 
     private void OnTriggerExit(Collider other)
