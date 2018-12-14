@@ -9,4 +9,24 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("Main");
     }
+
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
+
+    public void Info()
+    {
+        SceneManager.LoadScene("Info");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void BackToStart()
+    {
+        SceneManager.LoadScene("Start");
+    }
 }
