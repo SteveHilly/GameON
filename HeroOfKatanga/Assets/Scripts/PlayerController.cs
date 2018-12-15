@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,11 +15,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     bool grounded = false;
     float moveDistance;
+    [SerializeField]
+    Text childText;
+    float count;
+
 
     bool moveRight = false;
     bool moveLeft = false;
 
-    int health = 3;
+    public int health = 3;
     bool playerDead = false;
 
     [SerializeField]
@@ -34,6 +39,8 @@ public class PlayerController : MonoBehaviour
     {
         myRB = GetComponent<Rigidbody>();
         groundChecker = transform.GetChild(0);
+
+        childText.text = count + "/3 Children"; 
     }
 
     private void Update()
@@ -167,6 +174,14 @@ public class PlayerController : MonoBehaviour
             Climb();
         }
 
+        if (actionTarget.tag == "Child")
+        {
+            Destroy(actionTarget);
+            count++;
+            GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
+            childText.text = count + "/3 Children";
+        }
+
         Debug.Log(throwAction);
     }
 
@@ -199,6 +214,11 @@ public class PlayerController : MonoBehaviour
         if (other.tag == "Ground")
             return;
         actionTarget = other.gameObject;
+
+        if (other.tag == "Enemy")
+        {
+            health = -1;
+        }
     }
 
     private void OnTriggerExit(Collider other)

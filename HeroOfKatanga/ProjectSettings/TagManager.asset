@@ -7,6 +7,9 @@ TagManager:
   - Item
   - Ladder
   - Ground
+  - Child
+  - Block
+  - Enemy
   layers:
   - Default
   - TransparentFX
