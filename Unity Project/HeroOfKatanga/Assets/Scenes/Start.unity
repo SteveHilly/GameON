@@ -395,7 +395,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114685112731558962, guid: 3e21d23c6c290d44a9d2e38704426e1e,
+      - m_Target: {fileID: 114347284179519812, guid: 3e21d23c6c290d44a9d2e38704426e1e,
           type: 2}
         m_MethodName: StartGame
         m_Mode: 1
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114685112731558962, guid: 3e21d23c6c290d44a9d2e38704426e1e,
+      - m_Target: {fileID: 114347284179519812, guid: 3e21d23c6c290d44a9d2e38704426e1e,
           type: 2}
         m_MethodName: Info
         m_Mode: 1
@@ -882,7 +882,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114685112731558962, guid: 3e21d23c6c290d44a9d2e38704426e1e,
+      - m_Target: {fileID: 114347284179519812, guid: 3e21d23c6c290d44a9d2e38704426e1e,
           type: 2}
         m_MethodName: Settings
         m_Mode: 1
@@ -1451,7 +1451,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114685112731558962, guid: 3e21d23c6c290d44a9d2e38704426e1e,
+      - m_Target: {fileID: 114347284179519812, guid: 3e21d23c6c290d44a9d2e38704426e1e,
           type: 2}
         m_MethodName: QuitGame
         m_Mode: 1

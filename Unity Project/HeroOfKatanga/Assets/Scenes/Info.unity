@@ -218,7 +218,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 173192605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5da3146435c391b4596b6db1f2fa40e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 04ab80b51e6cb0b4ea7ac5814d0d6984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &173192607
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114895247822670786, guid: 3e21d23c6c290d44a9d2e38704426e1e,
+      - m_Target: {fileID: 114347284179519812, guid: 3e21d23c6c290d44a9d2e38704426e1e,
           type: 2}
         m_MethodName: BackToStart
         m_Mode: 1
