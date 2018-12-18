@@ -9,9 +9,4 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("Main");
     }
-
-    public void CloseGame()
-    {
-        Application.Quit();
-    }
 }
