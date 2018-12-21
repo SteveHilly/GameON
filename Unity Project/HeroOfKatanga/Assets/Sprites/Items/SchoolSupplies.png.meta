@@ -1,11 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Unity Project/HeroOfKatanga/Assets/Sprites/Items/Hardhat2.png.meta
-guid: e7c106abe114e43d99e2c286c79ebd6c
-timeCreated: 1545037692
-licenseType: Free
-=======
-guid: 6d9e67d3d001746d99d7aef1729239d3
->>>>>>> 92c569588644633927f589d1afd6ed987d848c35:Unity Project/HeroOfKatanga/Assets/Sprites/Items/DustMask.png.meta
+guid: 7b1510ef8e2da4542a40c1aa83417e5f
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
