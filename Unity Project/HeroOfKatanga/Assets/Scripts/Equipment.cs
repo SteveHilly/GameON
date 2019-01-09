@@ -11,6 +11,8 @@ public class Equipment : MonoBehaviour
 
     [SerializeField]
     GameObject rockPosition;
+    [SerializeField]
+    GameObject helmetPosition;
 
 
     private void Start()
@@ -38,7 +40,7 @@ public class Equipment : MonoBehaviour
         //rock.GetComponent<Rigidbody>().AddRelativeForce(250f, 0, 0);
         else   //rock.GetComponent<Rigidbody>().AddForce(-250f, 0, 0);
             rock.GetComponent<Rigidbody>().AddForce(500f, 0, 0);
-        RemoveItem(rock);
+        RemoveItem("Rock");
     }
 
     void EquipItem(GameObject item)
@@ -49,10 +51,22 @@ public class Equipment : MonoBehaviour
                 return;
         }
         EquiptetItems.Add(item);
-        item.SendMessage("SetItem", rockPosition);
+        GameObject position = null;
+        switch (item.name)
+        {
+            case "Rock":
+                position = rockPosition;
+                break;
+            case "Helmet":
+                position = helmetPosition;
+                break;
+            default:
+                return;
+        }
+        item.SendMessage("SetItem", position);
     }
 
-    void RemoveItem(GameObject item)
+    /*void RemoveItem(GameObject item)
     {
         int itemPosition = 0;
         for (int i = 0; i < EquiptetItems.Count; i++)
@@ -61,9 +75,29 @@ public class Equipment : MonoBehaviour
                 itemPosition = i;
         }
         EquiptetItems.RemoveAt(itemPosition);
+    }*/
+
+    void RemoveItem(string itemName)
+    {
+        for (int i = 0; i < EquiptetItems.Count; i++)
+        {
+            if (itemName == EquiptetItems[i].name)
+            {
+                if (itemName != "Rock")
+                    DeleteItem(EquiptetItems[i]);
+                EquiptetItems.RemoveAt(i);
+                Debug.Log("Remove item");              
+                return;
+            }
+        }
     }
 
-    public bool RockEquipped(bool equipped)
+    void DeleteItem(GameObject item)
+    {
+        Destroy(item);
+    }
+
+    /*public bool RockEquipped(bool equipped)
     {
         GameObject rock = null;
         for (int i = 0; i < EquiptetItems.Count; i++)
@@ -82,6 +116,20 @@ public class Equipment : MonoBehaviour
             equipped = true;
         }
         return equipped;
+    }*/
+
+    public bool CheckItem(string itemName)
+    {
+        for (int i = 0; i < EquiptetItems.Count; i++)
+        {
+            if (EquiptetItems[i].name == itemName)
+            {
+                Debug.Log("Item vorhanden");
+                return true;
+            }
+        }
+        Debug.Log("Item nicht vorhanden");
+        return false;
     }
 }
 
