@@ -8,10 +8,8 @@ public class RockTrigger : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            gameObject.GetComponentInParent<Rigidbody>().isKinematic = false;
-            Debug.Log("Player is in collider");
+            gameObject.GetComponentInParent<Rigidbody>().isKinematic = false;          
         }
-        else
-            Debug.Log("Not the player");
+       
     }
 }

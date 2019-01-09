@@ -145,7 +145,8 @@ public class PlayerController : MonoBehaviour
     public void Action()
     {
         bool throwAction = true;
-        throwAction = gameObject.GetComponent<Equipment>().RockEquipped(throwAction);
+        //throwAction = gameObject.GetComponent<Equipment>().RockEquipped(throwAction);
+        throwAction = gameObject.GetComponent<Equipment>().CheckItem("Rock");
         
         Debug.Log(throwAction);
 
