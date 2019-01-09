@@ -7,6 +7,8 @@ public class GameController : MonoBehaviour {
 
     float childCount = 0;
     static GameController gameControllerInstance;
+    [SerializeField]
+    int score = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -32,10 +34,17 @@ public class GameController : MonoBehaviour {
     void GameEnd()
     {
         SceneManager.LoadScene("End");
+        score = 0;
     }
 
     public float GetChildCount()
     {
         return childCount;
+    }
+
+    void AddScore(int points)
+    {
+        score += points;
+        GameObject.FindGameObjectWithTag("Canvas").SendMessage("UpdateUI",score);
     }
 }

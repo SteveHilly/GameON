@@ -10,6 +10,11 @@ TagManager:
   - Child
   - Block
   - Enemy
+  - Falling Rock
+  - Delete Rock
+  - Collectable
+  - CollectablesTrigger
+  - Canvas
   layers:
   - Default
   - TransparentFX
