@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     bool moveRight = false;
     bool moveLeft = false;
 
-    public int health = 3;
+    public float health = 3;
     bool playerDead = false;
 
     [SerializeField]
@@ -123,14 +123,14 @@ public class PlayerController : MonoBehaviour
             myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
     }
 
-    void GetHealth(int value)
+    void GetHealth(float value)
     {
         health += value;
         if (health > 3)
             health = 3;
     }
 
-    void LoseHealth(int value)
+    void LoseHealth(float value)
     {
         health -= value;
         if (health <= 0)
