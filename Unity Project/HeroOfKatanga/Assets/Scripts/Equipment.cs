@@ -11,6 +11,8 @@ public class Equipment : MonoBehaviour
 
     [SerializeField]
     GameObject rockPosition;
+    [SerializeField]
+    GameObject helmetPosition;
 
 
     private void Start()
@@ -49,7 +51,19 @@ public class Equipment : MonoBehaviour
                 return;
         }
         EquiptetItems.Add(item);
-        item.SendMessage("SetItem", rockPosition);
+        GameObject position = null;
+        switch (item.name)
+        {
+            case "Rock":
+                position = rockPosition;
+                break;
+            case "Helmet":
+                position = helmetPosition;
+                break;
+            default:
+                return;
+        }
+        item.SendMessage("SetItem", position);
     }
 
     void RemoveItem(GameObject item)
