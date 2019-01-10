@@ -3,31 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartMenu : MonoBehaviour
-{
+public class StartMenu : MonoBehaviour {
 
     public void StartGame()
     {
         SceneManager.LoadScene("FirstMineLevel");
-    }
-
-    public void Settings()
-    {
-        SceneManager.LoadScene("Settings");
-    }
-
-    public void Info()
-    {
-        SceneManager.LoadScene("Info");
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
-
-    public void BackToStart()
-    {
-        SceneManager.LoadScene("Start");
     }
 }
