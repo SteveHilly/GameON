@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
-    float childCount = 0;
+    public float childCount = 0;
     static GameController gameControllerInstance;
     [SerializeField]
     int score = 0;
@@ -26,9 +26,7 @@ public class GameController : MonoBehaviour {
 
     void AddChild()
     {
-        childCount++;
-        if (childCount == 3)
-            GameEnd();
+        childCount++;        
     }
 
     void GameEnd()
