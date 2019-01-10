@@ -8,7 +8,7 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("FirstMineLevel");
     }
 
     public void Settings()
