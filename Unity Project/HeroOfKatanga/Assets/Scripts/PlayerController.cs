@@ -191,6 +191,7 @@ public class PlayerController : MonoBehaviour
         GameObject target;
         float offset = 1f;
         float targetPositionY;
+        float targetPositionX;
         Vector3 targetPosition;
 
         if (actionTarget.name == "Button")
@@ -202,7 +203,9 @@ public class PlayerController : MonoBehaviour
             return;
 
         targetPositionY = target.transform.position.y + offset;
-        targetPosition = new Vector3(gameObject.transform.position.x, targetPositionY, gameObject.transform.position.z);
+        targetPositionX = target.transform.position.x;
+        // targetPosition = new Vector3(gameObject.transform.position.x, targetPositionY, gameObject.transform.position.z);
+        targetPosition = new Vector3(targetPositionX, targetPositionY, gameObject.transform.position.z);
 
 
         Debug.Log(targetPosition);
