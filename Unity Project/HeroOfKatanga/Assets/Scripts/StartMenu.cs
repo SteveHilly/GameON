@@ -7,11 +7,6 @@ public class StartMenu : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("FirstMineLevel");
-    }
-
-    public void CloseGame()
-    {
-        Application.Quit();
+        SceneManager.LoadScene("ClassRoom");
     }
 }
