@@ -40,7 +40,8 @@ public class PlayerController : MonoBehaviour
         myRB = GetComponent<Rigidbody>();
         groundChecker = transform.GetChild(0);
 
-        childText.text = count + "/3 Children"; 
+        if(childText != null)
+            childText.text = count + "/3 Children"; 
     }
 
     private void Update()
@@ -181,6 +182,12 @@ public class PlayerController : MonoBehaviour
             count++;
             GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
             childText.text = count + "/3 Children";
+        }
+
+        if (actionTarget.tag == "Teacher")
+        {
+            GameObject.FindGameObjectWithTag("Canvas").SendMessage("StartUI");
+            this.enabled = false;
         }
 
         Debug.Log(throwAction);
