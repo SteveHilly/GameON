@@ -9,4 +9,9 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("FirstMineLevel");
     }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+    }
 }

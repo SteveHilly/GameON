@@ -15,6 +15,7 @@ TagManager:
   - Collectable
   - CollectablesTrigger
   - Canvas
+  - Teacher
   layers:
   - Default
   - TransparentFX
