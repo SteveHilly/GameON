@@ -7,8 +7,6 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField]
-    float speed = 5f;
-    [SerializeField]
     float jumpHight = 300f;
     [SerializeField]
     float groundDistance = 0.2f;
@@ -16,16 +14,13 @@ public class PlayerController : MonoBehaviour
     bool grounded = false;
     float moveDistance;
     [SerializeField]
-    Text childText;
-    float count;
-    [SerializeField]
     TestController testController;
 
 
     bool moveRight = false;
     bool moveLeft = false;
 
-    public float health = 3;
+    float health = 3;
     bool playerDead = false;
 
     [SerializeField]
@@ -46,16 +41,13 @@ public class PlayerController : MonoBehaviour
         myRB = GetComponent<Rigidbody2D>();
         groundChecker = transform.GetChild(0);
 
-        if (childText != null)
-            childText.text = count + "/3 Children";
     }
 
     private void Update()
     {
         grounded = Physics2D.OverlapArea(top_left.position, buttom_right.position, ground);
 
-        inputs = Vector2.zero;
-        inputs.x = Input.GetAxis("Horizontal");
+        inputs = Vector2.zero;       
 
         if (moveRight)
         {
@@ -87,16 +79,11 @@ public class PlayerController : MonoBehaviour
         if (!moveLeft && !moveRight && -0.05f < moveDistance && moveDistance < 0.05f)
             moveDistance = 0f;
 
-        inputs.x = moveDistance;
-
-
     }
 
     void FixedUpdate()
-    {
-        inputs += gravityModifier * Physics2D.gravity * Time.deltaTime;
+    {        
         inputs.x = moveDistance;
-        //myRB.MovePosition(myRB.position + inputs * Time.fixedDeltaTime);
         testController.Move(inputs.x, false, false);
     }
 
@@ -124,13 +111,9 @@ public class PlayerController : MonoBehaviour
     {
         if (grounded)
         {
-            //myRB.AddForce(Vector2.up * Mathf.Sqrt(jumpHight * -2f * Physics2D.gravity.y), ForceMode2D.Force);
-            //myRB.velocity = Vector2.up * jumpHight;
             myRB.AddForce(new Vector2(0f, jumpHight));
-            Debug.Log("Jumping" + myRB.velocity + "" + jumpHight +""+ Vector2.up * jumpHight + ""+myRB);
+            Debug.Log("Jumping" + myRB.velocity + "" + jumpHight + "" + Vector2.up * jumpHight + "" + myRB);
         }
-        // myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
-
     }
 
     void GetHealth(float value)
@@ -154,13 +137,9 @@ public class PlayerController : MonoBehaviour
 
     public void Action()
     {
-        //gameObject.GetComponentInChildren<ActionTarget>().
         actionTarget = gameObject.GetComponentInChildren<ActionTarget>().SendTarget();
         bool throwAction = true;
-        //throwAction = gameObject.GetComponent<Equipment>().RockEquipped(throwAction);
         throwAction = gameObject.GetComponent<Equipment>().CheckItem("Rock");
-
-        Debug.Log(throwAction);
 
         if (throwAction)
         {
@@ -190,9 +169,7 @@ public class PlayerController : MonoBehaviour
         if (actionTarget.tag == "Child")
         {
             Destroy(actionTarget);
-            count++;
             GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
-            childText.text = count + "/3 Children";
         }
 
         if (actionTarget.tag == "Teacher")
@@ -200,8 +177,6 @@ public class PlayerController : MonoBehaviour
             GameObject.FindGameObjectWithTag("Canvas").SendMessage("StartUI");
             this.enabled = false;
         }
-
-        Debug.Log(throwAction);
     }
 
     void Climb()
@@ -222,11 +197,8 @@ public class PlayerController : MonoBehaviour
 
         targetPositionY = target.transform.position.y + offset;
         targetPositionX = target.transform.position.x;
-        // targetPosition = new Vector3(gameObject.transform.position.x, targetPositionY, gameObject.transform.position.z);
         targetPosition = new Vector3(targetPositionX, targetPositionY, gameObject.transform.position.z);
 
-
-        Debug.Log(targetPosition);
         myRB.position = targetPosition;
 
     }

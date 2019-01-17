@@ -577,8 +577,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1075570748}
-  - component: {fileID: 1075570750}
   - component: {fileID: 1075570749}
+  - component: {fileID: 1075570750}
   m_Layer: 10
   m_Name: ActionTarget
   m_TagString: Untagged
@@ -613,19 +613,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionTarget: {fileID: 0}
---- !u!65 &1075570750
-BoxCollider:
+--- !u!61 &1075570750
+BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65455648078785156, guid: 455b0edd921265b4d8aeb586b2059b65,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1075570747}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 1}
-  m_Center: {x: 1, y: 0, z: 0}
+  m_Size: {x: 2, y: 2}
+  m_EdgeRadius: 0
 --- !u!1 &1112772940
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +650,6 @@ GameObject:
   - component: {fileID: 1112772944}
   - component: {fileID: 1112772943}
   - component: {fileID: 1112772942}
-  - component: {fileID: 1112772941}
   - component: {fileID: 1112772948}
   m_Layer: 0
   m_Name: Capsule
@@ -647,18 +658,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1112772941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112772940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4af7a81ed75051148a6ab21b713f9b3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  testController: {fileID: 1112772942}
 --- !u!114 &1112772942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,6 +679,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 553209277}
   m_CeilingCheck: {fileID: 48815572}
   m_CrouchDisableCollider: {fileID: 0}
+  speed: 5
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -758,13 +758,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27dc392fb7323f74ebb94728e2e26ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   jumpHight: 300
   groundDistance: 0.2
   grounded: 0
-  childText: {fileID: 0}
   testController: {fileID: 1112772942}
-  health: 3
   actionTarget: {fileID: 0}
   gravityModifier: 1
   top_left: {fileID: 346978536}
