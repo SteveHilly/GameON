@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float speed = 5f;
     [SerializeField]
-    float jumpHight = 2f;
+    float jumpHight = 300f;
     [SerializeField]
     float groundDistance = 0.2f;
     [SerializeField]
@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     Text childText;
     float count;
+    [SerializeField]
+    TestController testController;
 
 
     bool moveRight = false;
@@ -28,34 +30,38 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     GameObject actionTarget;
+    [SerializeField]
+    float gravityModifier = 1f;
 
-
+    public Transform top_left;
+    public Transform buttom_right;
     public LayerMask ground;
 
-    Rigidbody myRB;
-    Vector3 inputs = Vector3.zero;
+    //Rigidbody myRB;
+    Rigidbody2D myRB;
+    Vector2 inputs = Vector2.zero;
     private Transform groundChecker;
     void Start()
     {
-        myRB = GetComponent<Rigidbody>();
+        myRB = GetComponent<Rigidbody2D>();
         groundChecker = transform.GetChild(0);
 
-        if(childText != null)
-            childText.text = count + "/3 Children"; 
+        if (childText != null)
+            childText.text = count + "/3 Children";
     }
 
     private void Update()
     {
-        grounded = Physics.CheckSphere(groundChecker.position, groundDistance, ground, QueryTriggerInteraction.Ignore);
+        grounded = Physics2D.OverlapArea(top_left.position, buttom_right.position, ground);
 
-        inputs = Vector3.zero;
+        inputs = Vector2.zero;
         inputs.x = Input.GetAxis("Horizontal");
 
         if (moveRight)
         {
             if (moveDistance < 1)
                 moveDistance += 0.05f;
-            gameObject.transform.eulerAngles = Vector3.zero;
+            //gameObject.transform.eulerAngles = Vector3.zero;
         }
         else
         {
@@ -67,7 +73,7 @@ public class PlayerController : MonoBehaviour
         {
             if (moveDistance > -1)
                 moveDistance -= 0.05f;
-            gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
+            //gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else
         {
@@ -83,19 +89,15 @@ public class PlayerController : MonoBehaviour
 
         inputs.x = moveDistance;
 
-        //if (inputs != Vector3.zero)
-        //    transform.forward = inputs;
 
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            //myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
-            SendMessage("Throw");
-        }
     }
 
     void FixedUpdate()
     {
-        myRB.MovePosition(myRB.position + inputs * speed * Time.fixedDeltaTime);
+        inputs += gravityModifier * Physics2D.gravity * Time.deltaTime;
+        inputs.x = moveDistance;
+        //myRB.MovePosition(myRB.position + inputs * Time.fixedDeltaTime);
+        testController.Move(inputs.x, false, false);
     }
 
     public void RightArrowButtonDown()
@@ -121,7 +123,14 @@ public class PlayerController : MonoBehaviour
     public void Jump()
     {
         if (grounded)
-            myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+        {
+            //myRB.AddForce(Vector2.up * Mathf.Sqrt(jumpHight * -2f * Physics2D.gravity.y), ForceMode2D.Force);
+            //myRB.velocity = Vector2.up * jumpHight;
+            myRB.AddForce(new Vector2(0f, jumpHight));
+            Debug.Log("Jumping" + myRB.velocity + "" + jumpHight +""+ Vector2.up * jumpHight + ""+myRB);
+        }
+        // myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+
     }
 
     void GetHealth(float value)
@@ -150,7 +159,7 @@ public class PlayerController : MonoBehaviour
         bool throwAction = true;
         //throwAction = gameObject.GetComponent<Equipment>().RockEquipped(throwAction);
         throwAction = gameObject.GetComponent<Equipment>().CheckItem("Rock");
-        
+
         Debug.Log(throwAction);
 
         if (throwAction)
@@ -158,7 +167,7 @@ public class PlayerController : MonoBehaviour
             SendMessage("Throw");
             Debug.Log(throwAction);
             return;
-        }      
+        }
 
         if (actionTarget == null)
         {
@@ -220,23 +229,5 @@ public class PlayerController : MonoBehaviour
         Debug.Log(targetPosition);
         myRB.position = targetPosition;
 
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Ground")
-            return;
-        actionTarget = other.gameObject;
-
-        if (other.tag == "Enemy")
-        {
-            health = -1;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (actionTarget = other.gameObject)
-            actionTarget = null;
     }
 }
