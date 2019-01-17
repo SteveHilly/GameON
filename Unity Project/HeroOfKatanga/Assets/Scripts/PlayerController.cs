@@ -111,8 +111,7 @@ public class PlayerController : MonoBehaviour
     {
         if (grounded)
         {
-            myRB.AddForce(new Vector2(0f, jumpHight));
-            Debug.Log("Jumping" + myRB.velocity + "" + jumpHight + "" + Vector2.up * jumpHight + "" + myRB);
+            myRB.AddForce(new Vector2(0f, jumpHight));            
         }
     }
 

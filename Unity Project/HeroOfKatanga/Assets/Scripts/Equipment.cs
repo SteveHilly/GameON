@@ -36,10 +36,10 @@ public class Equipment : MonoBehaviour
         rock.transform.parent = null;
         rock.SendMessage("SetKinematic");
         if (gameObject.transform.eulerAngles.y == 180 || gameObject.transform.eulerAngles.y == -180)
-            rock.GetComponent<Rigidbody>().AddForce(-500f, 0, 0);
+            rock.GetComponent<Rigidbody2D>().AddForce(new Vector2(-500f, 0));
         //rock.GetComponent<Rigidbody>().AddRelativeForce(250f, 0, 0);
         else   //rock.GetComponent<Rigidbody>().AddForce(-250f, 0, 0);
-            rock.GetComponent<Rigidbody>().AddForce(500f, 0, 0);
+            rock.GetComponent<Rigidbody2D>().AddForce(new Vector2(500f, 0));
         RemoveItem("Rock");
     }
 

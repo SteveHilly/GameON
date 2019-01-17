@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rock : Item {
+public class Rock : Item
+{
 
-    Rigidbody myRB;
+    Rigidbody2D myRB;
 
     private void Start()
     {
-        myRB = GetComponent<Rigidbody>();
+        myRB = GetComponent<Rigidbody2D>();
     }
     void SetKinematic()
     {
         myRB.isKinematic = !myRB.isKinematic;
+        if (myRB.isKinematic)
+        {
+            myRB.velocity = Vector2.zero;
+            myRB.angularVelocity = 0f;
+        }
+
     }
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EndTrigger : MonoBehaviour {
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player") && GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().childCount == 3)
+        if (collision.CompareTag("Player") && GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().childCount == 3)
         {
             GameObject.FindGameObjectWithTag("GameController").SendMessage("GameEnd");
         }
