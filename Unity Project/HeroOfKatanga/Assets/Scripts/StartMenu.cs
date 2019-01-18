@@ -9,4 +9,16 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("ClassRoom");
     }
+    public void BackToStart()
+    {
+        SceneManager.LoadScene("1Start");
+    }
+    public void InfoScreen()
+    {
+        SceneManager.LoadScene("Info");
+    }
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
 }
