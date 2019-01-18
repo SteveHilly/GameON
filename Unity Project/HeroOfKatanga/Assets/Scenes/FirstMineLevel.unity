@@ -300,6 +300,36 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224507741907827712, guid: 3d595b6f46265c94c82c56109b60f7a7,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224507741907827712, guid: 3d595b6f46265c94c82c56109b60f7a7,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224507741907827712, guid: 3d595b6f46265c94c82c56109b60f7a7,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224507741907827712, guid: 3d595b6f46265c94c82c56109b60f7a7,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -105.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 224507741907827712, guid: 3d595b6f46265c94c82c56109b60f7a7,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 224507741907827712, guid: 3d595b6f46265c94c82c56109b60f7a7,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 46.820007
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d595b6f46265c94c82c56109b60f7a7, type: 2}
   m_IsPrefabParent: 0
@@ -4666,11 +4696,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 55.05
+      value: 55.0727
       objectReference: {fileID: 0}
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -8.54
+      value: -8.4773
       objectReference: {fileID: 0}
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4699,6 +4729,14 @@ Prefab:
     - target: {fileID: 1914486283256802, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_Name
       value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.98010874
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.9427778
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
