@@ -239,7 +239,7 @@ Transform:
   m_Children:
   - {fileID: 51619978}
   m_Father: {fileID: 1231089542}
-  m_RootOrder: 27
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &73051253
 Prefab:
@@ -733,7 +733,7 @@ Transform:
   - {fileID: 1107540758}
   - {fileID: 77410646}
   m_Father: {fileID: 1231089542}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &264821236
 GameObject:
@@ -2682,6 +2682,12 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 212862274513350336, guid: 83752af284ee8ef499e59cf6959ea40c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 39490b922d5e14834b291020a287d349,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
   m_IsPrefabParent: 0
@@ -4874,14 +4880,14 @@ Transform:
   - {fileID: 734644855}
   - {fileID: 2094472013}
   - {fileID: 1903417283}
-  - {fileID: 706767572}
   - {fileID: 230135636}
+  - {fileID: 706767572}
   - {fileID: 330663160}
+  - {fileID: 68090050}
   - {fileID: 1124534113}
   - {fileID: 1753784105}
   - {fileID: 314523195}
   - {fileID: 384594971}
-  - {fileID: 68090050}
   - {fileID: 629452147}
   - {fileID: 101036964}
   - {fileID: 797649047}
@@ -5067,7 +5073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68, y: -95.9}
+  m_AnchoredPosition: {x: 68, y: -95.90039}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322718526
@@ -5530,7 +5536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 40, y: -95.9}
+  m_AnchoredPosition: {x: 40, y: -95.90039}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671043971
@@ -5749,6 +5755,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1744011176 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1187590507069484, guid: 83752af284ee8ef499e59cf6959ea40c,
+    type: 2}
+  m_PrefabInternal: {fileID: 383908690}
+--- !u!95 &1744011179
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744011176}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef1d2263e2d4f4f4284033c954213a8c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1753784104
 Prefab:
   m_ObjectHideFlags: 0
@@ -5966,7 +5994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -95.899994}
+  m_AnchoredPosition: {x: 103, y: -95.90039}
   m_SizeDelta: {x: 50, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1840504775

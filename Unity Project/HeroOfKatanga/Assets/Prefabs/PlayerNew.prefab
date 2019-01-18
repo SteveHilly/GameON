@@ -54,6 +54,7 @@ GameObject:
   - component: {fileID: 50287118185736656}
   - component: {fileID: 114180740340659700}
   - component: {fileID: 114356522565711986}
+  - component: {fileID: 114653244714871228}
   m_Layer: 9
   m_Name: PlayerNew
   m_TagString: Untagged
@@ -346,6 +347,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionTarget: {fileID: 0}
+--- !u!114 &114653244714871228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252325453839256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3100b97ae10826340bfee16872bff548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EquiptetItems: []
+  rockPosition: {fileID: 1122157815536426, guid: c9d15bb3e914a8544ad0a5b5bf74c9ef,
+    type: 2}
+  helmetPosition: {fileID: 1683084186695888, guid: 6aaaef64e4b21f54aa112ded9e54201c,
+    type: 2}
 --- !u!212 &212862274513350336
 SpriteRenderer:
   m_ObjectHideFlags: 1
