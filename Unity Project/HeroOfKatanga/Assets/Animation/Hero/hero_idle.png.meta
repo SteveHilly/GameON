@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: b60f9a54ec5a54acaa350fb6edc4339b
+timeCreated: 1547902341
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hero_idle_0
+    21300002: hero_idle_1
+    21300004: hero_idle_2
+    21300006: hero_idle_3
+    21300008: hero_idle_4
+    21300010: hero_idle_5
+    21300012: hero_idle_6
+    21300014: hero_idle_7
+    21300016: hero_idle_8
+    21300018: hero_idle_9
+    21300020: hero_idle_10
+    21300022: hero_idle_11
+    21300024: hero_idle_12
+    21300026: hero_idle_13
+    21300028: hero_idle_14
+    21300030: hero_idle_15
+    21300032: hero_idle_16
+    21300034: hero_idle_17
+    21300036: hero_idle_18
+    21300038: hero_idle_19
+    21300040: hero_idle_20
+    21300042: hero_idle_21
+    21300044: hero_idle_22
+    21300046: hero_idle_23
+    21300048: hero_idle_24
+    21300050: hero_idle_25
+    21300052: hero_idle_26
+    21300054: hero_idle_27
+    21300056: hero_idle_28
+    21300058: hero_idle_29
+    21300060: hero_idle_30
+    21300062: hero_idle_31
+    21300064: hero_idle_32
+    21300066: hero_idle_33
+    21300068: hero_idle_34
+    21300070: hero_idle_35
+    21300072: hero_idle_36
+    21300074: hero_idle_37
+    21300076: hero_idle_38
+    21300078: hero_idle_39
+    21300080: hero_idle_40
+    21300082: hero_idle_41
+    21300084: hero_idle_42
+    21300086: hero_idle_43
+    21300088: hero_idle_44
+    21300090: hero_idle_45
+    21300092: hero_idle_46
+    21300094: hero_idle_47
+    21300096: hero_idle_48
+    21300098: hero_idle_49
+    21300100: hero_idle_50
+    21300102: hero_idle_51
+    21300104: hero_idle_52
+    21300106: hero_idle_53
+    21300108: hero_idle_54
+    21300110: hero_idle_55
+    21300112: hero_idle_56
+    21300114: hero_idle_57
+    21300116: hero_idle_58
+    21300118: hero_idle_59
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_2
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_5
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_6
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_7
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_8
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 7116
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_10
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_11
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_12
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_14
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_15
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_16
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_17
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 6040
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_19
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_20
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_21
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_22
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_23
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_24
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_25
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_26
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 4964
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_28
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_29
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_30
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_31
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_32
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_33
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_34
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_35
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 3888
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_37
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_38
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_39
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_40
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_41
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_42
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_43
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_44
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 2812
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_46
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_47
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_48
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_49
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_50
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_51
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_52
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_53
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 1736
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_55
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 660
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_56
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 660
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_57
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 660
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_58
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 660
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_idle_59
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 660
+        width: 446
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
