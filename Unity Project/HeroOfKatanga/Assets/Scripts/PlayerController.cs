@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
     public Transform buttom_right;
     public LayerMask ground;
 
+    public Animator anim;
+
     //Rigidbody myRB;
     Rigidbody2D myRB;
     Vector2 inputs = Vector2.zero;
@@ -40,6 +42,7 @@ public class PlayerController : MonoBehaviour
     {
         myRB = GetComponent<Rigidbody2D>();
         groundChecker = transform.GetChild(0);
+        anim = gameObject.GetComponentInChildren<Animator>();
 
     }
 
@@ -85,6 +88,11 @@ public class PlayerController : MonoBehaviour
     {        
         inputs.x = moveDistance;
         testController.Move(inputs.x, false, false);
+        if (inputs.x != 0)
+            anim.SetBool("Moving", true);
+        else
+            anim.SetBool("Moving", false);
+
     }
 
     public void RightArrowButtonDown()
