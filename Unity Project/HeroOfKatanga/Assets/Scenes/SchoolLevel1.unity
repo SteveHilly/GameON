@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 18734937}
   - component: {fileID: 18734940}
   m_Layer: 8
-  m_Name: Cube (26)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,7 +293,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 26
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &18734940
 PlatformEffector2D:
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 29491050}
   - component: {fileID: 29491053}
   m_Layer: 8
-  m_Name: Cube (6)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 83446684}
   - component: {fileID: 83446687}
   m_Layer: 8
-  m_Name: Cube (9)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -819,7 +819,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &83446687
 PlatformEffector2D:
@@ -882,33 +882,6 @@ Prefab:
     - target: {fileID: 4843363884512300, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212862274513350336, guid: 83752af284ee8ef499e59cf6959ea40c,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 197010389
-      objectReference: {fileID: 0}
-    - target: {fileID: 212862274513350336, guid: 83752af284ee8ef499e59cf6959ea40c,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4049765612490020, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4049765612490020, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114356522565711986, guid: 83752af284ee8ef499e59cf6959ea40c,
-        type: 2}
-      propertyPath: jumpHight
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252325453839256, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
@@ -2441,7 +2414,7 @@ GameObject:
   - component: {fileID: 324607590}
   - component: {fileID: 324607593}
   m_Layer: 8
-  m_Name: Cube (25)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2524,7 +2497,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 25
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &324607593
 PlatformEffector2D:
@@ -2838,7 +2811,7 @@ GameObject:
   - component: {fileID: 366679472}
   - component: {fileID: 366679475}
   m_Layer: 8
-  m_Name: Cube (23)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2921,7 +2894,7 @@ Transform:
   m_LocalScale: {x: 9, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 23
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &366679475
 PlatformEffector2D:
@@ -3297,8 +3270,9 @@ GameObject:
   - component: {fileID: 446196944}
   - component: {fileID: 446196942}
   - component: {fileID: 446196943}
+  - component: {fileID: 446196946}
   m_Layer: 8
-  m_Name: Cube (24)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3348,7 +3322,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.000000029802322}
   m_SpriteTilingProperty:
@@ -3381,8 +3355,26 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 24
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &446196946
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446196941}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &447386121 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4027502051510844, guid: 358f5395357053340be544672de85c59,
@@ -3760,8 +3752,9 @@ GameObject:
   - component: {fileID: 512120921}
   - component: {fileID: 512120919}
   - component: {fileID: 512120920}
+  - component: {fileID: 512120923}
   m_Layer: 8
-  m_Name: Cube
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3811,7 +3804,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -3846,6 +3839,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &512120923
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 512120918}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &517189343
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,7 +4012,7 @@ GameObject:
   - component: {fileID: 564268087}
   - component: {fileID: 564268090}
   m_Layer: 8
-  m_Name: Cube (21)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4084,7 +4095,7 @@ Transform:
   m_LocalScale: {x: 3, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 21
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &564268090
 PlatformEffector2D:
@@ -5781,8 +5792,9 @@ GameObject:
   - component: {fileID: 823516079}
   - component: {fileID: 823516077}
   - component: {fileID: 823516078}
+  - component: {fileID: 823516081}
   m_Layer: 8
-  m_Name: Cube (14)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5832,7 +5844,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -5865,8 +5877,26 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 14
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &823516081
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 823516076}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &825029174
 Prefab:
   m_ObjectHideFlags: 0
@@ -6163,28 +6193,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4019617627215356, guid: 3a9555d6fd85128418737aa42815919e,
     type: 2}
   m_PrefabInternal: {fileID: 350824965}
---- !u!1 &863958514 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1187590507069484, guid: 83752af284ee8ef499e59cf6959ea40c,
-    type: 2}
-  m_PrefabInternal: {fileID: 105744610}
---- !u!95 &863958515
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 863958514}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ef1d2263e2d4f4f4284033c954213a8c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &867219417
 Prefab:
   m_ObjectHideFlags: 0
@@ -6354,8 +6362,9 @@ GameObject:
   - component: {fileID: 897904126}
   - component: {fileID: 897904124}
   - component: {fileID: 897904125}
+  - component: {fileID: 897904128}
   m_Layer: 8
-  m_Name: Cube (16)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6405,7 +6414,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000008940697}
   m_SpriteTilingProperty:
@@ -6438,8 +6447,26 @@ Transform:
   m_LocalScale: {x: 1, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 16
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &897904128
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 897904123}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &901705219
 GameObject:
   m_ObjectHideFlags: 0
@@ -6514,7 +6541,7 @@ Transform:
   m_Children:
   - {fileID: 1843953634}
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &905281847
 Prefab:
@@ -7465,27 +7492,27 @@ Transform:
   - {fileID: 29491052}
   - {fileID: 1621314259}
   - {fileID: 186318012}
-  - {fileID: 1517720264}
   - {fileID: 83446686}
   - {fileID: 1773995037}
-  - {fileID: 1986685383}
   - {fileID: 1204733867}
   - {fileID: 1429668819}
-  - {fileID: 823516080}
   - {fileID: 1997067202}
-  - {fileID: 897904127}
   - {fileID: 1648410829}
   - {fileID: 1404218674}
-  - {fileID: 901705223}
-  - {fileID: 2013655756}
   - {fileID: 564268089}
   - {fileID: 2052298537}
   - {fileID: 366679474}
-  - {fileID: 446196945}
   - {fileID: 324607592}
   - {fileID: 18734939}
   - {fileID: 1333270170}
   - {fileID: 1443625070}
+  - {fileID: 901705223}
+  - {fileID: 1517720264}
+  - {fileID: 1986685383}
+  - {fileID: 823516080}
+  - {fileID: 897904127}
+  - {fileID: 2013655756}
+  - {fileID: 446196945}
   - {fileID: 1135230875}
   - {fileID: 1152467785}
   - {fileID: 1642010295}
@@ -7665,8 +7692,9 @@ GameObject:
   - component: {fileID: 1098105278}
   - component: {fileID: 1098105276}
   - component: {fileID: 1098105277}
+  - component: {fileID: 1098105280}
   m_Layer: 8
-  m_Name: Cube (1)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7716,7 +7744,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -7751,6 +7779,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1098105280
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1098105275}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1103271276 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4019617627215356, guid: 3a9555d6fd85128418737aa42815919e,
@@ -7772,8 +7818,9 @@ GameObject:
   - component: {fileID: 1135230874}
   - component: {fileID: 1135230872}
   - component: {fileID: 1135230873}
+  - component: {fileID: 1135230876}
   m_Layer: 8
-  m_Name: Cube (29)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7823,7 +7870,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -7858,6 +7905,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1135230876
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1135230871}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1139489527
 Prefab:
   m_ObjectHideFlags: 0
@@ -7943,8 +8008,9 @@ GameObject:
   - component: {fileID: 1152467784}
   - component: {fileID: 1152467782}
   - component: {fileID: 1152467783}
+  - component: {fileID: 1152467786}
   m_Layer: 8
-  m_Name: Cube (30)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7994,7 +8060,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -8029,6 +8095,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1152467786
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1152467781}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1157456949 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4019617627215356, guid: 3a9555d6fd85128418737aa42815919e,
@@ -8535,7 +8619,7 @@ Transform:
   m_Children:
   - {fileID: 1393671179}
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1212972055 stripped
 Transform:
@@ -9108,8 +9192,9 @@ GameObject:
   - component: {fileID: 1252649275}
   - component: {fileID: 1252649273}
   - component: {fileID: 1252649274}
+  - component: {fileID: 1252649277}
   m_Layer: 8
-  m_Name: Cube (3)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9159,7 +9244,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -9194,6 +9279,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1252649277
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1252649272}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1252778995
 GameObject:
   m_ObjectHideFlags: 0
@@ -9205,8 +9308,9 @@ GameObject:
   - component: {fileID: 1252778998}
   - component: {fileID: 1252778996}
   - component: {fileID: 1252778997}
+  - component: {fileID: 1252779000}
   m_Layer: 8
-  m_Name: Cube (32)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9256,7 +9360,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -9291,6 +9395,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1252779000
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1252778995}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1259431225
 Prefab:
   m_ObjectHideFlags: 0
@@ -9652,7 +9774,7 @@ GameObject:
   - component: {fileID: 1333270168}
   - component: {fileID: 1333270171}
   m_Layer: 8
-  m_Name: Cube (27)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9735,7 +9857,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 27
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &1333270171
 PlatformEffector2D:
@@ -9768,7 +9890,7 @@ GameObject:
   - component: {fileID: 1349643114}
   - component: {fileID: 1349643117}
   m_Layer: 8
-  m_Name: Cube (4)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10250,7 +10372,7 @@ GameObject:
   - component: {fileID: 1404218671}
   - component: {fileID: 1404218672}
   m_Layer: 8
-  m_Name: Cube (18)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10333,7 +10455,7 @@ Transform:
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 18
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1412195586
 Prefab:
@@ -10555,7 +10677,7 @@ GameObject:
   - component: {fileID: 1429668817}
   - component: {fileID: 1429668820}
   m_Layer: 8
-  m_Name: Cube (13)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10638,7 +10760,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &1429668820
 PlatformEffector2D:
@@ -10676,7 +10798,7 @@ GameObject:
   - component: {fileID: 1443625068}
   - component: {fileID: 1443625071}
   m_Layer: 8
-  m_Name: Cube (28)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10759,7 +10881,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 28
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &1443625071
 PlatformEffector2D:
@@ -11419,8 +11541,9 @@ GameObject:
   - component: {fileID: 1517720263}
   - component: {fileID: 1517720261}
   - component: {fileID: 1517720262}
+  - component: {fileID: 1517720265}
   m_Layer: 8
-  m_Name: Cube (8)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11470,7 +11593,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.000000044703484}
   m_SpriteTilingProperty:
@@ -11503,8 +11626,26 @@ Transform:
   m_LocalScale: {x: 1, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 8
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1517720265
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517720260}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1522568318
 GameObject:
   m_ObjectHideFlags: 0
@@ -12032,8 +12173,9 @@ GameObject:
   - component: {fileID: 1621314258}
   - component: {fileID: 1621314256}
   - component: {fileID: 1621314257}
+  - component: {fileID: 1621314260}
   m_Layer: 8
-  m_Name: Cube (2)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12083,7 +12225,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -12118,6 +12260,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1621314260
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621314255}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1623029686 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4019617627215356, guid: 3a9555d6fd85128418737aa42815919e,
@@ -12673,8 +12833,9 @@ GameObject:
   - component: {fileID: 1642010294}
   - component: {fileID: 1642010292}
   - component: {fileID: 1642010293}
+  - component: {fileID: 1642010296}
   m_Layer: 8
-  m_Name: Cube (31)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12724,7 +12885,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -12759,6 +12920,24 @@ Transform:
   m_Father: {fileID: 1050498926}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1642010296
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642010291}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1645415960
 Prefab:
   m_ObjectHideFlags: 0
@@ -12846,7 +13025,7 @@ GameObject:
   - component: {fileID: 1648410827}
   - component: {fileID: 1648410830}
   m_Layer: 8
-  m_Name: Cube (17)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12929,7 +13108,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &1648410830
 PlatformEffector2D:
@@ -13372,7 +13551,7 @@ GameObject:
   - component: {fileID: 1773995035}
   - component: {fileID: 1773995038}
   m_Layer: 8
-  m_Name: Cube (10)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13455,7 +13634,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &1773995038
 PlatformEffector2D:
@@ -14089,7 +14268,7 @@ GameObject:
   - component: {fileID: 1867496744}
   - component: {fileID: 1867496747}
   m_Layer: 8
-  m_Name: Cube (5)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15125,8 +15304,9 @@ GameObject:
   - component: {fileID: 1986685382}
   - component: {fileID: 1986685380}
   - component: {fileID: 1986685381}
+  - component: {fileID: 1986685384}
   m_Layer: 8
-  m_Name: Cube (11)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15176,7 +15356,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -15209,8 +15389,26 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 11
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1986685384
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1986685379}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1987815732 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4019617627215356, guid: 3a9555d6fd85128418737aa42815919e,
@@ -15375,7 +15573,7 @@ GameObject:
   - component: {fileID: 1997067200}
   - component: {fileID: 1997067203}
   m_Layer: 8
-  m_Name: Cube (15)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15458,7 +15656,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &1997067203
 PlatformEffector2D:
@@ -15487,7 +15685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000888308}
   - component: {fileID: 2000888307}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: door3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15713,8 +15911,9 @@ GameObject:
   - component: {fileID: 2013655755}
   - component: {fileID: 2013655753}
   - component: {fileID: 2013655754}
+  - component: {fileID: 2013655757}
   m_Layer: 8
-  m_Name: Cube (20)
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15764,7 +15963,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -15797,8 +15996,26 @@ Transform:
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 20
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &2013655757
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2013655752}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &2019207274
 Prefab:
   m_ObjectHideFlags: 0
@@ -16295,7 +16512,7 @@ GameObject:
   - component: {fileID: 2052298535}
   - component: {fileID: 2052298538}
   m_Layer: 8
-  m_Name: Cube (22)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16378,7 +16595,7 @@ Transform:
   m_LocalScale: {x: 3, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1050498926}
-  m_RootOrder: 22
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &2052298538
 PlatformEffector2D:
@@ -16991,7 +17208,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2138296802}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
