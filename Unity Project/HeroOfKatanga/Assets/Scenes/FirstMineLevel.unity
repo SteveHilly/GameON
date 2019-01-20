@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 201483144}
   - component: {fileID: 201483145}
   - component: {fileID: 201483146}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: EndTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -17,6 +17,7 @@ TagManager:
   - Canvas
   - Teacher
   - Door
+  - EndTrigger
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Player
   - ActionTarget
   - Background
-  - 
+  - EndTrigger
   - 
   - 
   - 
