@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d338cd7ac75f94784b5016ba55382b4d
 timeCreated: 1548253049
 licenseType: Free
@@ -14,6 +15,13 @@ TextureImporter:
     21300014: hero_jumping_7
     21300016: hero_jumping_8
     21300018: hero_jumping_9
+=======
+guid: 62986ec6a5b6563418f19ae6b5f9bd02
+timeCreated: 1548240258
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -109,6 +117,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: hero_jumping_0
@@ -250,6 +259,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+=======
+    sprites: []
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
     outline: []
     physicsShape: []
   spritePackingTag: 

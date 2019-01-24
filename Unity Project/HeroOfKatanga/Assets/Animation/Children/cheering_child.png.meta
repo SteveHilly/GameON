@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 613a01dce5c60477f8807e1c5c0fcebb
 timeCreated: 1548253037
+=======
+guid: 86a8bfeb677e1c5449ea457ade03f239
+timeCreated: 1548240263
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -30,6 +35,69 @@ TextureImporter:
     21300046: cheering_child_23
     21300048: cheering_child_24
     21300050: cheering_child_25
+<<<<<<< HEAD
+=======
+    21300052: cheering_child_26
+    21300054: cheering_child_27
+    21300056: cheering_child_28
+    21300058: cheering_child_29
+    21300060: cheering_child_30
+    21300062: cheering_child_31
+    21300064: cheering_child_32
+    21300066: cheering_child_33
+    21300068: cheering_child_34
+    21300070: cheering_child_35
+    21300072: cheering_child_36
+    21300074: cheering_child_37
+    21300076: cheering_child_38
+    21300078: cheering_child_39
+    21300080: cheering_child_40
+    21300082: cheering_child_41
+    21300084: cheering_child_42
+    21300086: cheering_child_43
+    21300088: cheering_child_44
+    21300090: cheering_child_45
+    21300092: cheering_child_46
+    21300094: cheering_child_47
+    21300096: cheering_child_48
+    21300098: cheering_child_49
+    21300100: cheering_child_50
+    21300102: cheering_child_51
+    21300104: cheering_child_52
+    21300106: cheering_child_53
+    21300108: cheering_child_54
+    21300110: cheering_child_55
+    21300112: cheering_child_56
+    21300114: cheering_child_57
+    21300116: cheering_child_58
+    21300118: cheering_child_59
+    21300120: cheering_child_60
+    21300122: cheering_child_61
+    21300124: cheering_child_62
+    21300126: cheering_child_63
+    21300128: cheering_child_64
+    21300130: cheering_child_65
+    21300132: cheering_child_66
+    21300134: cheering_child_67
+    21300136: cheering_child_68
+    21300138: cheering_child_69
+    21300140: cheering_child_70
+    21300142: cheering_child_71
+    21300144: cheering_child_72
+    21300146: cheering_child_73
+    21300148: cheering_child_74
+    21300150: cheering_child_75
+    21300152: cheering_child_76
+    21300154: cheering_child_77
+    21300156: cheering_child_78
+    21300158: cheering_child_79
+    21300160: cheering_child_80
+    21300162: cheering_child_81
+    21300164: cheering_child_82
+    21300166: cheering_child_83
+    21300168: cheering_child_84
+    21300170: cheering_child_85
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -130,10 +198,17 @@ TextureImporter:
       name: cheering_child_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 6912
         width: 590
         height: 1280
+=======
+        x: 127
+        y: 7760
+        width: 13
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +219,17 @@ TextureImporter:
       name: cheering_child_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 590
         y: 6912
         width: 590
         height: 1280
+=======
+        x: 154
+        y: 6922
+        width: 351
+        height: 1068
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +240,17 @@ TextureImporter:
       name: cheering_child_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1180
         y: 6912
         width: 590
         height: 1280
+=======
+        x: 719
+        y: 7760
+        width: 13
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +261,17 @@ TextureImporter:
       name: cheering_child_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1770
         y: 6912
         width: 590
         height: 1280
+=======
+        x: 746
+        y: 6922
+        width: 351
+        height: 1068
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +282,17 @@ TextureImporter:
       name: cheering_child_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2360
         y: 6912
         width: 590
         height: 1280
+=======
+        x: 1311
+        y: 7760
+        width: 13
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +303,17 @@ TextureImporter:
       name: cheering_child_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2950
         y: 6912
         width: 590
         height: 1280
+=======
+        x: 1338
+        y: 6922
+        width: 351
+        height: 1068
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +324,17 @@ TextureImporter:
       name: cheering_child_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 5632
         width: 590
         height: 1280
+=======
+        x: 1903
+        y: 7760
+        width: 13
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +345,17 @@ TextureImporter:
       name: cheering_child_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 590
         y: 5632
         width: 590
         height: 1280
+=======
+        x: 1930
+        y: 6922
+        width: 351
+        height: 1068
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +366,17 @@ TextureImporter:
       name: cheering_child_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1180
         y: 5632
         width: 590
         height: 1280
+=======
+        x: 2495
+        y: 7760
+        width: 13
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +387,17 @@ TextureImporter:
       name: cheering_child_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1770
         y: 5632
         width: 590
         height: 1280
+=======
+        x: 2522
+        y: 6922
+        width: 351
+        height: 1068
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +408,17 @@ TextureImporter:
       name: cheering_child_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2360
         y: 5632
         width: 590
         height: 1280
+=======
+        x: 3022
+        y: 6922
+        width: 394
+        height: 1056
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +429,17 @@ TextureImporter:
       name: cheering_child_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2950
         y: 5632
         width: 590
         height: 1280
+=======
+        x: 127
+        y: 7700
+        width: 21
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +450,17 @@ TextureImporter:
       name: cheering_child_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 4352
         width: 590
         height: 1280
+=======
+        x: 719
+        y: 7700
+        width: 21
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +471,17 @@ TextureImporter:
       name: cheering_child_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 590
         y: 4352
         width: 590
         height: 1280
+=======
+        x: 1311
+        y: 7700
+        width: 21
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +492,17 @@ TextureImporter:
       name: cheering_child_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1180
         y: 4352
         width: 590
         height: 1280
+=======
+        x: 1903
+        y: 7700
+        width: 21
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +513,17 @@ TextureImporter:
       name: cheering_child_15
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1770
         y: 4352
         width: 590
         height: 1280
+=======
+        x: 2495
+        y: 7700
+        width: 21
+        height: 48
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +534,17 @@ TextureImporter:
       name: cheering_child_16
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2360
         y: 4352
         width: 590
         height: 1280
+=======
+        x: 140
+        y: 7660
+        width: 24
+        height: 36
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +555,17 @@ TextureImporter:
       name: cheering_child_17
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2950
         y: 4352
         width: 590
         height: 1280
+=======
+        x: 732
+        y: 7660
+        width: 24
+        height: 36
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +576,17 @@ TextureImporter:
       name: cheering_child_18
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 3072
         width: 590
         height: 1280
+=======
+        x: 1324
+        y: 7660
+        width: 24
+        height: 36
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +597,17 @@ TextureImporter:
       name: cheering_child_19
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 590
         y: 3072
         width: 590
         height: 1280
+=======
+        x: 1916
+        y: 7660
+        width: 24
+        height: 36
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +618,17 @@ TextureImporter:
       name: cheering_child_20
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1180
         y: 3072
         width: 590
         height: 1280
+=======
+        x: 2508
+        y: 7660
+        width: 24
+        height: 36
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +639,17 @@ TextureImporter:
       name: cheering_child_21
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1770
         y: 3072
         width: 590
         height: 1280
+=======
+        x: 3440
+        y: 7632
+        width: 4
+        height: 4
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +660,17 @@ TextureImporter:
       name: cheering_child_22
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2360
         y: 3072
         width: 590
         height: 1280
+=======
+        x: 62
+        y: 5658
+        width: 394
+        height: 1056
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +681,17 @@ TextureImporter:
       name: cheering_child_23
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2950
         y: 3072
         width: 590
         height: 1280
+=======
+        x: 480
+        y: 6368
+        width: 4
+        height: 4
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +702,17 @@ TextureImporter:
       name: cheering_child_24
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 1792
         width: 590
         height: 1280
+=======
+        x: 654
+        y: 5658
+        width: 394
+        height: 1056
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +723,857 @@ TextureImporter:
       name: cheering_child_25
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 590
         y: 1792
         width: 590
         height: 1280
+=======
+        x: 1072
+        y: 6368
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_26
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 5658
+        width: 394
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_27
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 6368
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_28
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 5702
+        width: 439
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_29
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 5702
+        width: 439
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_30
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 5702
+        width: 439
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 4434
+        width: 439
+        height: 1060
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_32
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 5444
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_33
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 4558
+        width: 353
+        height: 1072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_34
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 5444
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_35
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 4558
+        width: 353
+        height: 1072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_36
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 4478
+        width: 353
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_37
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 4478
+        width: 350
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_38
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 4478
+        width: 350
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_39
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 5383
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_40
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 5383
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_41
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 5348
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_42
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 5340
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_43
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 5340
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_44
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 5340
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_45
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 5340
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_46
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 5308
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_47
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 5308
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_48
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 5284
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_49
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 5292
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_50
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5292
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_51
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 5240
+        width: 13
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_52
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 5244
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_53
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 5231
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5231
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_55
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 5196
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_56
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 5188
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_57
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 5188
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_58
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4084
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_59
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3130
+        width: 390
+        height: 1051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_60
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3130
+        width: 428
+        height: 1051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_61
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 3130
+        width: 437
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_62
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 3130
+        width: 351
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_63
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 3130
+        width: 351
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_64
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3130
+        width: 351
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_65
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 3964
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_66
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 3964
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_67
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 3964
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_68
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3916
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_69
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 3903
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_70
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 3903
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_71
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 3903
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_72
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3856
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_73
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 3864
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_74
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 3864
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_75
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 3864
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_76
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 3820
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_77
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 3508
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_78
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2700
+        width: 13
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1866
+        width: 351
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_80
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2700
+        width: 13
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_81
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1866
+        width: 351
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_82
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2636
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_83
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2636
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_84
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2596
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cheering_child_85
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2596
+        width: 24
+        height: 36
+>>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

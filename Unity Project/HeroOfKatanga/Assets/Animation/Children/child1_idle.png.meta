@@ -64,6 +64,212 @@ TextureImporter:
     21300114: child1_idle_57
     21300116: child1_idle_58
     21300118: child1_idle_59
+    21300120: child1_idle_60
+    21300122: child1_idle_61
+    21300124: child1_idle_62
+    21300126: child1_idle_63
+    21300128: child1_idle_64
+    21300130: child1_idle_65
+    21300132: child1_idle_66
+    21300134: child1_idle_67
+    21300136: child1_idle_68
+    21300138: child1_idle_69
+    21300140: child1_idle_70
+    21300142: child1_idle_71
+    21300144: child1_idle_72
+    21300146: child1_idle_73
+    21300148: child1_idle_74
+    21300150: child1_idle_75
+    21300152: child1_idle_76
+    21300154: child1_idle_77
+    21300156: child1_idle_78
+    21300158: child1_idle_79
+    21300160: child1_idle_80
+    21300162: child1_idle_81
+    21300164: child1_idle_82
+    21300166: child1_idle_83
+    21300168: child1_idle_84
+    21300170: child1_idle_85
+    21300172: child1_idle_86
+    21300174: child1_idle_87
+    21300176: child1_idle_88
+    21300178: child1_idle_89
+    21300180: child1_idle_90
+    21300182: child1_idle_91
+    21300184: child1_idle_92
+    21300186: child1_idle_93
+    21300188: child1_idle_94
+    21300190: child1_idle_95
+    21300192: child1_idle_96
+    21300194: child1_idle_97
+    21300196: child1_idle_98
+    21300198: child1_idle_99
+    21300200: child1_idle_100
+    21300202: child1_idle_101
+    21300204: child1_idle_102
+    21300206: child1_idle_103
+    21300208: child1_idle_104
+    21300210: child1_idle_105
+    21300212: child1_idle_106
+    21300214: child1_idle_107
+    21300216: child1_idle_108
+    21300218: child1_idle_109
+    21300220: child1_idle_110
+    21300222: child1_idle_111
+    21300224: child1_idle_112
+    21300226: child1_idle_113
+    21300228: child1_idle_114
+    21300230: child1_idle_115
+    21300232: child1_idle_116
+    21300234: child1_idle_117
+    21300236: child1_idle_118
+    21300238: child1_idle_119
+    21300240: child1_idle_120
+    21300242: child1_idle_121
+    21300244: child1_idle_122
+    21300246: child1_idle_123
+    21300248: child1_idle_124
+    21300250: child1_idle_125
+    21300252: child1_idle_126
+    21300254: child1_idle_127
+    21300256: child1_idle_128
+    21300258: child1_idle_129
+    21300260: child1_idle_130
+    21300262: child1_idle_131
+    21300264: child1_idle_132
+    21300266: child1_idle_133
+    21300268: child1_idle_134
+    21300270: child1_idle_135
+    21300272: child1_idle_136
+    21300274: child1_idle_137
+    21300276: child1_idle_138
+    21300278: child1_idle_139
+    21300280: child1_idle_140
+    21300282: child1_idle_141
+    21300284: child1_idle_142
+    21300286: child1_idle_143
+    21300288: child1_idle_144
+    21300290: child1_idle_145
+    21300292: child1_idle_146
+    21300294: child1_idle_147
+    21300296: child1_idle_148
+    21300298: child1_idle_149
+    21300300: child1_idle_150
+    21300302: child1_idle_151
+    21300304: child1_idle_152
+    21300306: child1_idle_153
+    21300308: child1_idle_154
+    21300310: child1_idle_155
+    21300312: child1_idle_156
+    21300314: child1_idle_157
+    21300316: child1_idle_158
+    21300318: child1_idle_159
+    21300320: child1_idle_160
+    21300322: child1_idle_161
+    21300324: child1_idle_162
+    21300326: child1_idle_163
+    21300328: child1_idle_164
+    21300330: child1_idle_165
+    21300332: child1_idle_166
+    21300334: child1_idle_167
+    21300336: child1_idle_168
+    21300338: child1_idle_169
+    21300340: child1_idle_170
+    21300342: child1_idle_171
+    21300344: child1_idle_172
+    21300346: child1_idle_173
+    21300348: child1_idle_174
+    21300350: child1_idle_175
+    21300352: child1_idle_176
+    21300354: child1_idle_177
+    21300356: child1_idle_178
+    21300358: child1_idle_179
+    21300360: child1_idle_180
+    21300362: child1_idle_181
+    21300364: child1_idle_182
+    21300366: child1_idle_183
+    21300368: child1_idle_184
+    21300370: child1_idle_185
+    21300372: child1_idle_186
+    21300374: child1_idle_187
+    21300376: child1_idle_188
+    21300378: child1_idle_189
+    21300380: child1_idle_190
+    21300382: child1_idle_191
+    21300384: child1_idle_192
+    21300386: child1_idle_193
+    21300388: child1_idle_194
+    21300390: child1_idle_195
+    21300392: child1_idle_196
+    21300394: child1_idle_197
+    21300396: child1_idle_198
+    21300398: child1_idle_199
+    21300400: child1_idle_200
+    21300402: child1_idle_201
+    21300404: child1_idle_202
+    21300406: child1_idle_203
+    21300408: child1_idle_204
+    21300410: child1_idle_205
+    21300412: child1_idle_206
+    21300414: child1_idle_207
+    21300416: child1_idle_208
+    21300418: child1_idle_209
+    21300420: child1_idle_210
+    21300422: child1_idle_211
+    21300424: child1_idle_212
+    21300426: child1_idle_213
+    21300428: child1_idle_214
+    21300430: child1_idle_215
+    21300432: child1_idle_216
+    21300434: child1_idle_217
+    21300436: child1_idle_218
+    21300438: child1_idle_219
+    21300440: child1_idle_220
+    21300442: child1_idle_221
+    21300444: child1_idle_222
+    21300446: child1_idle_223
+    21300448: child1_idle_224
+    21300450: child1_idle_225
+    21300452: child1_idle_226
+    21300454: child1_idle_227
+    21300456: child1_idle_228
+    21300458: child1_idle_229
+    21300460: child1_idle_230
+    21300462: child1_idle_231
+    21300464: child1_idle_232
+    21300466: child1_idle_233
+    21300468: child1_idle_234
+    21300470: child1_idle_235
+    21300472: child1_idle_236
+    21300474: child1_idle_237
+    21300476: child1_idle_238
+    21300478: child1_idle_239
+    21300480: child1_idle_240
+    21300482: child1_idle_241
+    21300484: child1_idle_242
+    21300486: child1_idle_243
+    21300488: child1_idle_244
+    21300490: child1_idle_245
+    21300492: child1_idle_246
+    21300494: child1_idle_247
+    21300496: child1_idle_248
+    21300498: child1_idle_249
+    21300500: child1_idle_250
+    21300502: child1_idle_251
+    21300504: child1_idle_252
+    21300506: child1_idle_253
+    21300508: child1_idle_254
+    21300510: child1_idle_255
+    21300512: child1_idle_256
+    21300514: child1_idle_257
+    21300516: child1_idle_258
+    21300518: child1_idle_259
+    21300520: child1_idle_260
+    21300522: child1_idle_261
+    21300524: child1_idle_262
+    21300526: child1_idle_263
+    21300528: child1_idle_264
+    21300530: child1_idle_265
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -91,7 +297,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -164,12 +370,12 @@ TextureImporter:
       name: child1_idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7126
-        width: 420
-        height: 1066
+        x: 36
+        y: 7952
+        width: 8
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,12 +384,12 @@ TextureImporter:
       name: child1_idle_1
       rect:
         serializedVersion: 2
-        x: 420
-        y: 7126
-        width: 420
-        height: 1066
+        x: 64
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,12 +398,12 @@ TextureImporter:
       name: child1_idle_2
       rect:
         serializedVersion: 2
-        x: 840
-        y: 7126
-        width: 420
-        height: 1066
+        x: 448
+        y: 7952
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,12 +412,12 @@ TextureImporter:
       name: child1_idle_3
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 7126
-        width: 420
-        height: 1066
+        x: 476
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,12 +426,12 @@ TextureImporter:
       name: child1_idle_4
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 7126
-        width: 420
-        height: 1066
+        x: 864
+        y: 7952
+        width: 8
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,12 +440,12 @@ TextureImporter:
       name: child1_idle_5
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 7126
-        width: 420
-        height: 1066
+        x: 892
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,12 +454,12 @@ TextureImporter:
       name: child1_idle_6
       rect:
         serializedVersion: 2
-        x: 2520
-        y: 7126
-        width: 420
-        height: 1066
+        x: 1276
+        y: 7952
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,12 +468,12 @@ TextureImporter:
       name: child1_idle_7
       rect:
         serializedVersion: 2
-        x: 2940
-        y: 7126
-        width: 420
-        height: 1066
+        x: 1304
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +482,12 @@ TextureImporter:
       name: child1_idle_8
       rect:
         serializedVersion: 2
-        x: 3360
-        y: 7126
-        width: 420
-        height: 1066
+        x: 1692
+        y: 7952
+        width: 8
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,12 +496,12 @@ TextureImporter:
       name: child1_idle_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6060
-        width: 420
-        height: 1066
+        x: 1720
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,12 +510,12 @@ TextureImporter:
       name: child1_idle_10
       rect:
         serializedVersion: 2
-        x: 420
-        y: 6060
-        width: 420
-        height: 1066
+        x: 2104
+        y: 7952
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,12 +524,12 @@ TextureImporter:
       name: child1_idle_11
       rect:
         serializedVersion: 2
-        x: 840
-        y: 6060
-        width: 420
-        height: 1066
+        x: 2132
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -332,12 +538,12 @@ TextureImporter:
       name: child1_idle_12
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 6060
-        width: 420
-        height: 1066
+        x: 2520
+        y: 7952
+        width: 8
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,12 +552,12 @@ TextureImporter:
       name: child1_idle_13
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 6060
-        width: 420
-        height: 1066
+        x: 2548
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,12 +566,12 @@ TextureImporter:
       name: child1_idle_14
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 6060
-        width: 420
-        height: 1066
+        x: 2932
+        y: 7952
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,12 +580,12 @@ TextureImporter:
       name: child1_idle_15
       rect:
         serializedVersion: 2
-        x: 2520
-        y: 6060
-        width: 420
-        height: 1066
+        x: 2960
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -388,12 +594,12 @@ TextureImporter:
       name: child1_idle_16
       rect:
         serializedVersion: 2
-        x: 2940
-        y: 6060
-        width: 420
-        height: 1066
+        x: 3348
+        y: 7952
+        width: 8
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,12 +608,12 @@ TextureImporter:
       name: child1_idle_17
       rect:
         serializedVersion: 2
-        x: 3360
-        y: 6060
-        width: 420
-        height: 1066
+        x: 3376
+        y: 7128
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,12 +622,12 @@ TextureImporter:
       name: child1_idle_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4994
-        width: 420
-        height: 1066
+        x: 36
+        y: 7892
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,12 +636,12 @@ TextureImporter:
       name: child1_idle_19
       rect:
         serializedVersion: 2
-        x: 420
-        y: 4994
-        width: 420
-        height: 1066
+        x: 448
+        y: 7892
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,12 +650,12 @@ TextureImporter:
       name: child1_idle_20
       rect:
         serializedVersion: 2
-        x: 840
-        y: 4994
-        width: 420
-        height: 1066
+        x: 864
+        y: 7892
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,12 +664,12 @@ TextureImporter:
       name: child1_idle_21
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 4994
-        width: 420
-        height: 1066
+        x: 1276
+        y: 7892
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,12 +678,12 @@ TextureImporter:
       name: child1_idle_22
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 4994
-        width: 420
-        height: 1066
+        x: 1692
+        y: 7892
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,12 +692,12 @@ TextureImporter:
       name: child1_idle_23
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 4994
-        width: 420
-        height: 1066
+        x: 2104
+        y: 7892
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,11 +707,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2520
-        y: 4994
-        width: 420
-        height: 1066
+        y: 7892
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,12 +720,12 @@ TextureImporter:
       name: child1_idle_25
       rect:
         serializedVersion: 2
-        x: 2940
-        y: 4994
-        width: 420
-        height: 1066
+        x: 2932
+        y: 7892
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,12 +734,12 @@ TextureImporter:
       name: child1_idle_26
       rect:
         serializedVersion: 2
-        x: 3360
-        y: 4994
-        width: 420
-        height: 1066
+        x: 3348
+        y: 7892
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,12 +748,12 @@ TextureImporter:
       name: child1_idle_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3928
-        width: 420
-        height: 1066
+        x: 48
+        y: 7852
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,12 +762,12 @@ TextureImporter:
       name: child1_idle_28
       rect:
         serializedVersion: 2
-        x: 420
-        y: 3928
-        width: 420
-        height: 1066
+        x: 464
+        y: 7852
+        width: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -570,12 +776,12 @@ TextureImporter:
       name: child1_idle_29
       rect:
         serializedVersion: 2
-        x: 840
-        y: 3928
-        width: 420
-        height: 1066
+        x: 876
+        y: 7852
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -584,12 +790,12 @@ TextureImporter:
       name: child1_idle_30
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 3928
-        width: 420
-        height: 1066
+        x: 1292
+        y: 7852
+        width: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,12 +804,12 @@ TextureImporter:
       name: child1_idle_31
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 3928
-        width: 420
-        height: 1066
+        x: 1704
+        y: 7852
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -612,12 +818,12 @@ TextureImporter:
       name: child1_idle_32
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 3928
-        width: 420
-        height: 1066
+        x: 2120
+        y: 7852
+        width: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,12 +832,12 @@ TextureImporter:
       name: child1_idle_33
       rect:
         serializedVersion: 2
-        x: 2520
-        y: 3928
-        width: 420
-        height: 1066
+        x: 2532
+        y: 7852
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -640,12 +846,12 @@ TextureImporter:
       name: child1_idle_34
       rect:
         serializedVersion: 2
-        x: 2940
-        y: 3928
-        width: 420
-        height: 1066
+        x: 2948
+        y: 7852
+        width: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,11 +861,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3360
-        y: 3928
-        width: 420
-        height: 1066
+        y: 7852
+        width: 24
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -668,12 +874,12 @@ TextureImporter:
       name: child1_idle_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2862
-        width: 420
-        height: 1066
+        x: 36
+        y: 6888
+        width: 8
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -682,12 +888,12 @@ TextureImporter:
       name: child1_idle_37
       rect:
         serializedVersion: 2
-        x: 420
-        y: 2862
-        width: 420
-        height: 1066
+        x: 64
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -696,12 +902,12 @@ TextureImporter:
       name: child1_idle_38
       rect:
         serializedVersion: 2
-        x: 840
-        y: 2862
-        width: 420
-        height: 1066
+        x: 448
+        y: 6888
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -710,12 +916,12 @@ TextureImporter:
       name: child1_idle_39
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 2862
-        width: 420
-        height: 1066
+        x: 476
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -724,12 +930,12 @@ TextureImporter:
       name: child1_idle_40
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 2862
-        width: 420
-        height: 1066
+        x: 864
+        y: 6888
+        width: 8
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -738,12 +944,12 @@ TextureImporter:
       name: child1_idle_41
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 2862
-        width: 420
-        height: 1066
+        x: 892
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -752,12 +958,12 @@ TextureImporter:
       name: child1_idle_42
       rect:
         serializedVersion: 2
-        x: 2520
-        y: 2862
-        width: 420
-        height: 1066
+        x: 1276
+        y: 6888
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -766,12 +972,12 @@ TextureImporter:
       name: child1_idle_43
       rect:
         serializedVersion: 2
-        x: 2940
-        y: 2862
-        width: 420
-        height: 1066
+        x: 1304
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -780,12 +986,12 @@ TextureImporter:
       name: child1_idle_44
       rect:
         serializedVersion: 2
-        x: 3360
-        y: 2862
-        width: 420
-        height: 1066
+        x: 1692
+        y: 6888
+        width: 8
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -794,12 +1000,12 @@ TextureImporter:
       name: child1_idle_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1796
-        width: 420
-        height: 1066
+        x: 1720
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -808,12 +1014,12 @@ TextureImporter:
       name: child1_idle_46
       rect:
         serializedVersion: 2
-        x: 420
-        y: 1796
-        width: 420
-        height: 1066
+        x: 2104
+        y: 6888
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -822,12 +1028,12 @@ TextureImporter:
       name: child1_idle_47
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1796
-        width: 420
-        height: 1066
+        x: 2132
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -836,12 +1042,12 @@ TextureImporter:
       name: child1_idle_48
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 1796
-        width: 420
-        height: 1066
+        x: 2520
+        y: 6888
+        width: 8
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -850,12 +1056,12 @@ TextureImporter:
       name: child1_idle_49
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 1796
-        width: 420
-        height: 1066
+        x: 2548
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -864,12 +1070,12 @@ TextureImporter:
       name: child1_idle_50
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 1796
-        width: 420
-        height: 1066
+        x: 2932
+        y: 6888
+        width: 12
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -878,12 +1084,12 @@ TextureImporter:
       name: child1_idle_51
       rect:
         serializedVersion: 2
-        x: 2520
-        y: 1796
-        width: 420
-        height: 1066
+        x: 2960
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -892,12 +1098,12 @@ TextureImporter:
       name: child1_idle_52
       rect:
         serializedVersion: 2
-        x: 2940
-        y: 1796
-        width: 420
-        height: 1066
+        x: 3348
+        y: 6888
+        width: 8
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -906,12 +1112,12 @@ TextureImporter:
       name: child1_idle_53
       rect:
         serializedVersion: 2
-        x: 3360
-        y: 1796
-        width: 420
-        height: 1066
+        x: 3376
+        y: 6064
+        width: 348
+        height: 1052
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -920,12 +1126,12 @@ TextureImporter:
       name: child1_idle_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 730
-        width: 420
-        height: 1066
+        x: 36
+        y: 6828
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -934,12 +1140,12 @@ TextureImporter:
       name: child1_idle_55
       rect:
         serializedVersion: 2
-        x: 420
-        y: 730
-        width: 420
-        height: 1066
+        x: 448
+        y: 6828
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -948,12 +1154,12 @@ TextureImporter:
       name: child1_idle_56
       rect:
         serializedVersion: 2
-        x: 840
-        y: 730
-        width: 420
-        height: 1066
+        x: 864
+        y: 6828
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -962,12 +1168,12 @@ TextureImporter:
       name: child1_idle_57
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 730
-        width: 420
-        height: 1066
+        x: 1276
+        y: 6828
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -976,12 +1182,12 @@ TextureImporter:
       name: child1_idle_58
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 730
-        width: 420
-        height: 1066
+        x: 1692
+        y: 6828
+        width: 16
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -990,12 +1196,2896 @@ TextureImporter:
       name: child1_idle_59
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 730
-        width: 420
-        height: 1066
+        x: 2104
+        y: 6828
+        width: 20
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_60
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 6828
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_61
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 6828
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_62
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 6828
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_64
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_65
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_66
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_67
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_68
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_69
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_70
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_71
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 6788
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 5828
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 5828
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_75
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_76
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 5828
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_77
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_78
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 5828
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_79
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_80
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 5828
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_81
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_82
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 5828
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_83
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_84
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 5828
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_85
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_86
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 5828
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_87
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_88
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 5828
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_89
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 5000
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_90
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 5764
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_91
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 5764
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_92
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 5764
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_93
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 5764
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_94
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 5764
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_95
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 5764
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_96
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 5764
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_97
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 5764
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_98
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 5764
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 5728
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_100
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 5728
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_101
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 5728
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 5728
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 5728
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_104
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 5728
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_105
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 5728
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_106
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 5728
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_107
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 5728
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_108
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4764
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3936
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4764
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_111
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 3936
+        width: 348
+        height: 1056
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_112
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 4764
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_113
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 3936
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 4764
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3936
+        width: 348
+        height: 1056
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 4764
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 3936
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_118
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 4740
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_119
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 3936
+        width: 344
+        height: 1056
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_120
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 4740
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_121
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 3936
+        width: 348
+        height: 1056
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_122
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 4740
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_123
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 3936
+        width: 344
+        height: 1056
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_124
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 4740
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_125
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3936
+        width: 348
+        height: 1056
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4704
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_127
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 4704
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_128
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4748
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_129
+      rect:
+        serializedVersion: 2
+        x: 2876
+        y: 4748
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_130
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 4748
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_131
+      rect:
+        serializedVersion: 2
+        x: 3704
+        y: 4748
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_132
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4704
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_133
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 4704
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_134
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 4704
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_135
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 4680
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_136
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 4684
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_137
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 4680
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_138
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 4684
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4664
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_140
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4664
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_141
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 4664
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_142
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 4664
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_143
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 4664
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_144
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 4648
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_145
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 4648
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_146
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 4620
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_147
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 4620
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_148
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3680
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2876
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_150
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3720
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_151
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2876
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_152
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 3680
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_153
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 2876
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_154
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 3720
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_155
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2876
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_156
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 3680
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_157
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2876
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_158
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3720
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_159
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2876
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_160
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 3680
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_161
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 2876
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_162
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 3720
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_163
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 2876
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_164
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 3680
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_165
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2876
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_166
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_167
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3680
+        width: 4
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_168
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_169
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_170
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 3680
+        width: 4
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_171
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_172
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 3684
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_173
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 3680
+        width: 4
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_174
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_175
+      rect:
+        serializedVersion: 2
+        x: 2876
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_176
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 3680
+        width: 4
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_177
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_178
+      rect:
+        serializedVersion: 2
+        x: 3704
+        y: 3684
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_179
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_180
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_181
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_182
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_183
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_184
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_185
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_186
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_187
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 3620
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_188
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 3584
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_189
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 3584
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_190
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 3584
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_191
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 3584
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_192
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_193
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 3556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_194
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 3556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_195
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 3556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_196
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 3556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_197
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2616
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_198
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1812
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_199
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2616
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_200
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1812
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_201
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2616
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_202
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1812
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_203
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2616
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_204
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1812
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_205
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2616
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_206
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1812
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_207
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2616
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_208
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 1812
+        width: 344
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_209
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2636
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_210
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 1812
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_211
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 2636
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_212
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 1812
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_213
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 2636
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_214
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 1812
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_215
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2620
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_216
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2620
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_217
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2620
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_218
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2620
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_219
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2620
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_220
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2620
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_221
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2576
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_222
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 2576
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_223
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 2576
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_224
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2556
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_225
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2556
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_226
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2584
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_227
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2556
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_228
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2556
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_229
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2584
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_230
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2556
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_231
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2556
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_232
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 2584
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_233
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2524
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_234
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2524
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_235
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 2524
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_236
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 2536
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_237
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 2536
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_238
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 2536
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_239
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_240
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 2492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_241
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 2492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_242
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1576
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_243
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 748
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_244
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1576
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_245
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 748
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_246
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1576
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_247
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 748
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_248
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1576
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_249
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 748
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_250
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1576
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_251
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 748
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_252
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1576
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_253
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 748
+        width: 348
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_254
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1512
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_255
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1512
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_256
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1512
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_257
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1512
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_258
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1512
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_259
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1512
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_260
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1476
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_261
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1476
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_262
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1476
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_263
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1476
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_264
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1476
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: child1_idle_265
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 1476
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
