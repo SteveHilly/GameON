@@ -101,16 +101,18 @@ public class PlayerController : MonoBehaviour
     public void RightArrowButtonDown()
     {
         moveRight = true;
+        //FindObjectOfType<AudioManager>().Play("walkingSound"); // is buggy here and should prob be somewhere else
     }
 
     public void RightArrowButtonUp()
     {
-        moveRight = false;
+        moveRight = false;        
     }
 
     public void LeftArrowButtonDown()
     {
         moveLeft = true;
+        //FindObjectOfType<AudioManager>().Play("walkingSound"); // is buggy here and should prob be somewhere else
     }
 
     public void LeftArrowButtonUp()
@@ -122,6 +124,7 @@ public class PlayerController : MonoBehaviour
     {
         if (grounded)
             myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
+            FindObjectOfType<AudioManager>().Play("jumpSound");
     }
 
     void GetHealth(float value)
@@ -136,6 +139,7 @@ public class PlayerController : MonoBehaviour
         health -= value;
         if (health <= 0)
             playerDead = true;
+            FindObjectOfType<AudioManager>().Play("gameOver");
     }
 
     void Dead()
@@ -171,6 +175,7 @@ public class PlayerController : MonoBehaviour
         {
             SendMessage("EquipItem", actionTarget);
             Debug.Log(actionTarget.name);
+            FindObjectOfType<AudioManager>().Play("pickupSound");
         }
 
         if (actionTarget.tag == "Ladder")
@@ -184,6 +189,7 @@ public class PlayerController : MonoBehaviour
             count++;
             GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
             childText.text = count + "/3 Children";
+            FindObjectOfType<AudioManager>().Play("childSafeSound");
         }
 
         if (actionTarget.tag == "Teacher")

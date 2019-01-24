@@ -12,4 +12,5 @@ public class CanvasUpdate : MonoBehaviour {
     {
         scoreText.text = score.ToString();
     }
+
 }
