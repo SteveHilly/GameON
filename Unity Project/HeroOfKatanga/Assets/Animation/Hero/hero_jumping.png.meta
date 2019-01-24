@@ -1,8 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d338cd7ac75f94784b5016ba55382b4d
-timeCreated: 1548253049
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: hero_jumping_0
@@ -15,13 +12,6 @@ TextureImporter:
     21300014: hero_jumping_7
     21300016: hero_jumping_8
     21300018: hero_jumping_9
-=======
-guid: 62986ec6a5b6563418f19ae6b5f9bd02
-timeCreated: 1548240258
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
->>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -54,7 +44,7 @@ TextureImporter:
     mipBias: -1
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -117,16 +107,15 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: hero_jumping_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2966
-        width: 860
-        height: 1130
+        y: 2976
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +126,10 @@ TextureImporter:
       name: hero_jumping_1
       rect:
         serializedVersion: 2
-        x: 860
-        y: 2966
-        width: 860
-        height: 1130
+        x: 855
+        y: 2976
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +140,10 @@ TextureImporter:
       name: hero_jumping_2
       rect:
         serializedVersion: 2
-        x: 1720
-        y: 2966
-        width: 860
-        height: 1130
+        x: 1710
+        y: 2976
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +154,10 @@ TextureImporter:
       name: hero_jumping_3
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 2966
-        width: 860
-        height: 1130
+        x: 2565
+        y: 2976
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,9 +169,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1836
-        width: 860
-        height: 1130
+        y: 1856
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +182,10 @@ TextureImporter:
       name: hero_jumping_5
       rect:
         serializedVersion: 2
-        x: 860
-        y: 1836
-        width: 860
-        height: 1130
+        x: 855
+        y: 1856
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +196,10 @@ TextureImporter:
       name: hero_jumping_6
       rect:
         serializedVersion: 2
-        x: 1720
-        y: 1836
-        width: 860
-        height: 1130
+        x: 1710
+        y: 1856
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +210,10 @@ TextureImporter:
       name: hero_jumping_7
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 1836
-        width: 860
-        height: 1130
+        x: 2565
+        y: 1856
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,9 +225,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 706
-        width: 860
-        height: 1130
+        y: 736
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,19 +238,16 @@ TextureImporter:
       name: hero_jumping_9
       rect:
         serializedVersion: 2
-        x: 860
-        y: 706
-        width: 860
-        height: 1130
+        x: 855
+        y: 736
+        width: 855
+        height: 1120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-=======
-    sprites: []
->>>>>>> 4715eda36edac0f2fcc4775e4754037cfaa78c66
     outline: []
     physicsShape: []
   spritePackingTag: 
