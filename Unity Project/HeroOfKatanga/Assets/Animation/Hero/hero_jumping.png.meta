@@ -1,9 +1,17 @@
 fileFormatVersion: 2
-guid: 62986ec6a5b6563418f19ae6b5f9bd02
-timeCreated: 1548240258
-licenseType: Free
+guid: d338cd7ac75f94784b5016ba55382b4d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: hero_jumping_0
+    21300002: hero_jumping_1
+    21300004: hero_jumping_2
+    21300006: hero_jumping_3
+    21300008: hero_jumping_4
+    21300010: hero_jumping_5
+    21300012: hero_jumping_6
+    21300014: hero_jumping_7
+    21300016: hero_jumping_8
+    21300018: hero_jumping_9
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -36,7 +44,7 @@ TextureImporter:
     mipBias: -1
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -99,7 +107,147 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hero_jumping_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2976
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_1
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 2976
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_2
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 2976
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_3
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2976
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1856
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_5
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1856
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_6
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1856
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_7
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1856
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hero_jumping_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 736
+        width: 855
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
