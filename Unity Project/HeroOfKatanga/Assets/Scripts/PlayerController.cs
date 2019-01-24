@@ -175,7 +175,7 @@ public class PlayerController : MonoBehaviour
 
         if (actionTarget.tag == "Child")
         {
-            Destroy(actionTarget);
+            actionTarget.GetComponent<Animator>().SetBool("saved", true);
             GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
         }
 
