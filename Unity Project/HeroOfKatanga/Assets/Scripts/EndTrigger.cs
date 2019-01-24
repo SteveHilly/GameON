@@ -1,14 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class EndTrigger : MonoBehaviour {
+public class EndTrigger : MonoBehaviour
+{
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player") && GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().childCount == 3)
-        {
-            GameObject.FindGameObjectWithTag("GameController").SendMessage("GameEnd");
-        }
+        string activeScene;
+        activeScene = SceneManager.GetActiveScene().name;
+        Debug.Log(activeScene);
+        if (activeScene == "FirstMineLevel")
+            if (collision.CompareTag("Player") && GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().childCount == 3)
+            {
+                SceneManager.LoadScene("SchoolLevel1");
+            }
+        if (activeScene == "SchoolLevel1")
+            if (collision.CompareTag("Player"))
+            {
+                GameObject.FindGameObjectWithTag("GameController").SendMessage("GameEnd");
+            }
     }
 }

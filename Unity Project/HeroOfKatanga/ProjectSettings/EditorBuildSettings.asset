@@ -15,5 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/FirstMineLevel.unity
     guid: 610242e924069364d9960837c264d027
   - enabled: 1
+    path: Assets/Scenes/SchoolLevel1.unity
+    guid: 972e9821f18717e4c952b089177dd8fb
+  - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 22ddc278822f4174bb876c5ddc8c4286

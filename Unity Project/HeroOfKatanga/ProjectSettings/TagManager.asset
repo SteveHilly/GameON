@@ -16,6 +16,8 @@ TagManager:
   - CollectablesTrigger
   - Canvas
   - Teacher
+  - Door
+  - EndTrigger
   layers:
   - Default
   - TransparentFX
@@ -28,8 +30,8 @@ TagManager:
   - Ground
   - Player
   - ActionTarget
-  - 
-  - 
+  - Background
+  - EndTrigger
   - 
   - 
   - 
@@ -52,4 +54,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4057378265
+    locked: 0
+  - name: Midground
+    uniqueID: 4047525887
+    locked: 0
+  - name: Foreground
+    uniqueID: 197010389
     locked: 0

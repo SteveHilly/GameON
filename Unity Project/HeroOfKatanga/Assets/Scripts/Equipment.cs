@@ -6,7 +6,6 @@ public class Equipment : MonoBehaviour
 {
 
     [SerializeField]
-    //GameObject rock;
     List<GameObject> EquiptetItems;
 
     [SerializeField]
@@ -14,15 +13,9 @@ public class Equipment : MonoBehaviour
     [SerializeField]
     GameObject helmetPosition;
 
-
-    private void Start()
-    {
-        //rock.SetActive(false);
-        //EquiptetItems.Add(rock);
-    }
-
     public void Throw()
     {
+        Debug.Log("Throwing");
         GameObject rock = null;
         for (int i = 0; i < EquiptetItems.Count; i++)
         {
@@ -36,10 +29,9 @@ public class Equipment : MonoBehaviour
         rock.transform.parent = null;
         rock.SendMessage("SetKinematic");
         if (gameObject.transform.eulerAngles.y == 180 || gameObject.transform.eulerAngles.y == -180)
-            rock.GetComponent<Rigidbody>().AddForce(-500f, 0, 0);
-        //rock.GetComponent<Rigidbody>().AddRelativeForce(250f, 0, 0);
-        else   //rock.GetComponent<Rigidbody>().AddForce(-250f, 0, 0);
-            rock.GetComponent<Rigidbody>().AddForce(500f, 0, 0);
+            rock.GetComponent<Rigidbody2D>().AddForce(new Vector2(-500f, 0));
+        else  
+            rock.GetComponent<Rigidbody2D>().AddForce(new Vector2(500f, 0));
         RemoveItem("Rock");
     }
 
@@ -63,19 +55,9 @@ public class Equipment : MonoBehaviour
             default:
                 return;
         }
-        item.SendMessage("SetItem", position);
+        SetItem(position, item);
     }
 
-    /*void RemoveItem(GameObject item)
-    {
-        int itemPosition = 0;
-        for (int i = 0; i < EquiptetItems.Count; i++)
-        {
-            if (item.name == EquiptetItems[i].name)
-                itemPosition = i;
-        }
-        EquiptetItems.RemoveAt(itemPosition);
-    }*/
 
     void RemoveItem(string itemName)
     {
@@ -97,27 +79,6 @@ public class Equipment : MonoBehaviour
         Destroy(item);
     }
 
-    /*public bool RockEquipped(bool equipped)
-    {
-        GameObject rock = null;
-        for (int i = 0; i < EquiptetItems.Count; i++)
-        {
-            if (EquiptetItems[i].name == "Rock")
-                rock = EquiptetItems[i];
-        }
-
-
-        if (rock == null)
-        {
-            equipped = false;           
-        }
-        else
-        {
-            equipped = true;
-        }
-        return equipped;
-    }*/
-
     public bool CheckItem(string itemName)
     {
         for (int i = 0; i < EquiptetItems.Count; i++)
@@ -130,6 +91,27 @@ public class Equipment : MonoBehaviour
         }
         Debug.Log("Item nicht vorhanden");
         return false;
+    }
+
+    void SetItem(GameObject TargetPosition, GameObject Target)
+    {
+        float xPos;
+        float yPos;
+
+        Transform transformTarget = TargetPosition.transform;
+        Target.transform.parent = gameObject.transform;
+
+        yPos = transformTarget.position.y + GameObject.FindGameObjectWithTag("Player").transform.position.y;
+
+        if (gameObject.transform.localScale.x == 1)
+            xPos = transformTarget.position.x + GameObject.FindGameObjectWithTag("Player").transform.position.x;
+        else
+            xPos = -transformTarget.position.x + GameObject.FindGameObjectWithTag("Player").transform.position.x;
+
+        Target.transform.position = new Vector3(xPos, yPos, 0);
+
+        if (Target.name == "Rock")
+            Target.SendMessage("SetKinematic");
     }
 }
 

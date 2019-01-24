@@ -22,22 +22,19 @@ public class Item : MonoBehaviour
     {
         float xPos;
         float yPos;
-        float zPos;
 
         Transform transformTarget = Target.transform;
         gameObject.transform.parent = player.transform;
 
-        xPos = transformTarget.position.x + GameObject.FindGameObjectWithTag("Player").transform.position.x;
         yPos = transformTarget.position.y + GameObject.FindGameObjectWithTag("Player").transform.position.y;
-        zPos = transformTarget.position.z + GameObject.FindGameObjectWithTag("Player").transform.position.z;
 
-        if (player.transform.eulerAngles.y == 180 || player.transform.eulerAngles.y == -180)
+        if (player.transform.localScale.x == 1)
+            xPos = transformTarget.position.x + GameObject.FindGameObjectWithTag("Player").transform.position.x;
+        else
             xPos = -transformTarget.position.x + GameObject.FindGameObjectWithTag("Player").transform.position.x;
 
-            gameObject.transform.position = new Vector3(xPos, yPos, zPos);
-        //gameObject.transform.position = transformTarget.position + GameObject.FindGameObjectWithTag("Player").transform.position;
+        gameObject.transform.position = new Vector3(xPos, yPos, 0);
 
-        //gameObject.transform.parent = player.transform;
         if (gameObject.name == "Rock")
             SendMessage("SetKinematic");
     }

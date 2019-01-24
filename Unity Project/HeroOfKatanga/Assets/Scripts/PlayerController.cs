@@ -7,55 +7,56 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField]
-    float speed = 5f;
-    [SerializeField]
-    float jumpHight = 2f;
+    float jumpHight = 300f;
     [SerializeField]
     float groundDistance = 0.2f;
     [SerializeField]
     bool grounded = false;
     float moveDistance;
     [SerializeField]
-    Text childText;
-    float count;
+    TestController testController;
 
 
     bool moveRight = false;
     bool moveLeft = false;
 
-    public float health = 3;
+    float health = 3;
     bool playerDead = false;
 
     [SerializeField]
     GameObject actionTarget;
+    [SerializeField]
+    float gravityModifier = 1f;
 
-
+    public Transform top_left;
+    public Transform buttom_right;
     public LayerMask ground;
 
-    Rigidbody myRB;
-    Vector3 inputs = Vector3.zero;
+    public Animator anim;
+
+    //Rigidbody myRB;
+    Rigidbody2D myRB;
+    Vector2 inputs = Vector2.zero;
     private Transform groundChecker;
     void Start()
     {
-        myRB = GetComponent<Rigidbody>();
+        myRB = GetComponent<Rigidbody2D>();
         groundChecker = transform.GetChild(0);
+        anim = gameObject.GetComponentInChildren<Animator>();
 
-        if(childText != null)
-            childText.text = count + "/3 Children"; 
     }
 
     private void Update()
     {
-        grounded = Physics.CheckSphere(groundChecker.position, groundDistance, ground, QueryTriggerInteraction.Ignore);
+        grounded = Physics2D.OverlapArea(top_left.position, buttom_right.position, ground);
 
-        inputs = Vector3.zero;
-        inputs.x = Input.GetAxis("Horizontal");
+        inputs = Vector2.zero;       
 
         if (moveRight)
         {
             if (moveDistance < 1)
                 moveDistance += 0.05f;
-            gameObject.transform.eulerAngles = Vector3.zero;
+            //gameObject.transform.eulerAngles = Vector3.zero;
         }
         else
         {
@@ -67,7 +68,7 @@ public class PlayerController : MonoBehaviour
         {
             if (moveDistance > -1)
                 moveDistance -= 0.05f;
-            gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
+            //gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else
         {
@@ -81,21 +82,17 @@ public class PlayerController : MonoBehaviour
         if (!moveLeft && !moveRight && -0.05f < moveDistance && moveDistance < 0.05f)
             moveDistance = 0f;
 
-        inputs.x = moveDistance;
-
-        //if (inputs != Vector3.zero)
-        //    transform.forward = inputs;
-
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            //myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
-            SendMessage("Throw");
-        }
     }
 
     void FixedUpdate()
-    {
-        myRB.MovePosition(myRB.position + inputs * speed * Time.fixedDeltaTime);
+    {        
+        inputs.x = moveDistance;
+        testController.Move(inputs.x, false, false);
+        if (inputs.x != 0)
+            anim.SetBool("Moving", true);
+        else
+            anim.SetBool("Moving", false);
+
     }
 
     public void RightArrowButtonDown()
@@ -123,8 +120,14 @@ public class PlayerController : MonoBehaviour
     public void Jump()
     {
         if (grounded)
+<<<<<<< HEAD
+        {
+            myRB.AddForce(new Vector2(0f, jumpHight));            
+        }
+=======
             myRB.AddForce(Vector3.up * Mathf.Sqrt(jumpHight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
             FindObjectOfType<AudioManager>().Play("jumpSound");
+>>>>>>> origin/master
     }
 
     void GetHealth(float value)
@@ -149,20 +152,16 @@ public class PlayerController : MonoBehaviour
 
     public void Action()
     {
-        //gameObject.GetComponentInChildren<ActionTarget>().
         actionTarget = gameObject.GetComponentInChildren<ActionTarget>().SendTarget();
         bool throwAction = true;
-        //throwAction = gameObject.GetComponent<Equipment>().RockEquipped(throwAction);
         throwAction = gameObject.GetComponent<Equipment>().CheckItem("Rock");
-        
-        Debug.Log(throwAction);
 
         if (throwAction)
         {
             SendMessage("Throw");
             Debug.Log(throwAction);
             return;
-        }      
+        }
 
         if (actionTarget == null)
         {
@@ -185,11 +184,13 @@ public class PlayerController : MonoBehaviour
 
         if (actionTarget.tag == "Child")
         {
-            Destroy(actionTarget);
-            count++;
+            actionTarget.GetComponent<Animator>().SetBool("saved", true);
             GameObject.FindGameObjectWithTag("GameController").SendMessage("AddChild");
+<<<<<<< HEAD
+=======
             childText.text = count + "/3 Children";
             FindObjectOfType<AudioManager>().Play("childSafeSound");
+>>>>>>> origin/master
         }
 
         if (actionTarget.tag == "Teacher")
@@ -197,8 +198,6 @@ public class PlayerController : MonoBehaviour
             GameObject.FindGameObjectWithTag("Canvas").SendMessage("StartUI");
             this.enabled = false;
         }
-
-        Debug.Log(throwAction);
     }
 
     void Climb()
@@ -219,30 +218,9 @@ public class PlayerController : MonoBehaviour
 
         targetPositionY = target.transform.position.y + offset;
         targetPositionX = target.transform.position.x;
-        // targetPosition = new Vector3(gameObject.transform.position.x, targetPositionY, gameObject.transform.position.z);
         targetPosition = new Vector3(targetPositionX, targetPositionY, gameObject.transform.position.z);
 
-
-        Debug.Log(targetPosition);
         myRB.position = targetPosition;
 
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Ground")
-            return;
-        actionTarget = other.gameObject;
-
-        if (other.tag == "Enemy")
-        {
-            health = -1;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (actionTarget = other.gameObject)
-            actionTarget = null;
     }
 }
