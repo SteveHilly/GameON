@@ -98,6 +98,7 @@ public class PlayerController : MonoBehaviour
     public void RightArrowButtonDown()
     {
         moveRight = true;
+        //FindObjectOfType<AudioManager>().Play("walk");
     }
 
     public void RightArrowButtonUp()
@@ -108,6 +109,7 @@ public class PlayerController : MonoBehaviour
     public void LeftArrowButtonDown()
     {
         moveLeft = true;
+        //FindObjectOfType<AudioManager>().Play("walk");
     }
 
     public void LeftArrowButtonUp()
@@ -119,7 +121,8 @@ public class PlayerController : MonoBehaviour
     {
         if (grounded)
         {
-            myRB.AddForce(new Vector2(0f, jumpHight));            
+            myRB.AddForce(new Vector2(0f, jumpHight));
+            FindObjectOfType<AudioManager>().Play("jump");
         }
     }
 
@@ -135,6 +138,7 @@ public class PlayerController : MonoBehaviour
         health -= value;
         if (health <= 0)
             playerDead = true;
+            FindObjectOfType<AudioManager>().Play("dead");
     }
 
     void Dead()
@@ -166,6 +170,7 @@ public class PlayerController : MonoBehaviour
         {
             SendMessage("EquipItem", actionTarget);
             Debug.Log(actionTarget.name);
+            FindObjectOfType<AudioManager>().Play("pick");
         }
 
         if (actionTarget.tag == "Ladder")

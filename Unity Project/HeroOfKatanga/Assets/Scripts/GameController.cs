@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour {
 
     void AddChild()
     {
-        childCount++;        
+        childCount++;
     }
 
     void GameEnd()
