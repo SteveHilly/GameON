@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField]
-    float jumpHight = 300f;
+    float jumpHight = 400f;
     [SerializeField]
     float groundDistance = 0.2f;
     [SerializeField]
