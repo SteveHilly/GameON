@@ -121,6 +121,7 @@ public class PlayerController : MonoBehaviour
     {
         if (grounded)
         {
+            anim.SetBool("Jumping", true);
             myRB.AddForce(new Vector2(0f, jumpHight));
             FindObjectOfType<AudioManager>().Play("jump");
         }
