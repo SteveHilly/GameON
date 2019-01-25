@@ -18,6 +18,7 @@ TagManager:
   - Teacher
   - Door
   - EndTrigger
+  - Audio
   layers:
   - Default
   - TransparentFX

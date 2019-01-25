@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour {
 
+
+
     public void StartGame()
     {
         SceneManager.LoadScene("ClassRoom");
@@ -21,7 +23,7 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("Settings");
     }
-    public void doExitGame()
+    public void ExitGame()
     {
         Application.Quit();
     }

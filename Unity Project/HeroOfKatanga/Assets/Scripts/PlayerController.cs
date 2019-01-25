@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
 
     public Animator anim;
 
+    bool walkingSound = false;
+
     //Rigidbody myRB;
     Rigidbody2D myRB;
     Vector2 inputs = Vector2.zero;
@@ -89,9 +91,21 @@ public class PlayerController : MonoBehaviour
         inputs.x = moveDistance;
         testController.Move(inputs.x, false, false);
         if (inputs.x != 0)
+        {
             anim.SetBool("Moving", true);
+            if (!walkingSound)
+            {
+                FindObjectOfType<AudioManager>().Play("walk");
+                walkingSound = true;
+            }
+        }
         else
+        {
             anim.SetBool("Moving", false);
+            FindObjectOfType<AudioManager>().StopPlaying("walk");
+            walkingSound = false;
+        }
+
 
     }
 

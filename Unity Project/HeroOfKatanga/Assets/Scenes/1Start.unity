@@ -558,7 +558,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1834,6 +1834,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1706352909299848, guid: 1cea20e2f0733c84dad30328acac248e, type: 2}
+      propertyPath: m_TagString
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149359101498766, guid: 1cea20e2f0733c84dad30328acac248e,
+        type: 2}
+      propertyPath: sounds.Array.data[7].loop
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cea20e2f0733c84dad30328acac248e, type: 2}
   m_IsPrefabParent: 0
@@ -1988,7 +1997,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 276851159}
-        m_MethodName: doExitGame
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

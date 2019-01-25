@@ -8,4 +8,9 @@ public class Child : MonoBehaviour {
     {
         Destroy(gameObject);
     }
+
+    public void PlaySound()
+    {
+        FindObjectOfType<AudioManager>().Play("yay");
+    }
 }

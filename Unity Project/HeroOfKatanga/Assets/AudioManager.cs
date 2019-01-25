@@ -44,4 +44,13 @@ public class AudioManager : MonoBehaviour
             return;
         s.source.Play(); // play the selected sound
     }
+
+    public void StopPlaying(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name); // find selected sound in the sounds array
+        // exception prevention whenever a sound is not found (in case of typo)
+        if (s == null)
+            return;
+        s.source.Stop();
+    }
 }
