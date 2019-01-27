@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Collectables : MonoBehaviour {
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.tag == "CollectablesTrigger")
+        if (collision.gameObject.tag == "Player")
         {
             GameObject.FindGameObjectWithTag("GameController").SendMessage("AddScore", 1);
+            GameObject.FindWithTag("Audio").GetComponent<AudioManager>().Play("pick");
             Destroy(gameObject);
         }
     }
