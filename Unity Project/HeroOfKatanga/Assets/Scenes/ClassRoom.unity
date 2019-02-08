@@ -532,6 +532,12 @@ Prefab:
       propertyPath: m_SortingLayer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 212862274513350336, guid: 83752af284ee8ef499e59cf6959ea40c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 39490b922d5e14834b291020a287d349,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83752af284ee8ef499e59cf6959ea40c, type: 2}
   m_IsPrefabParent: 0
@@ -3099,7 +3105,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4598036647883128, guid: d83bf03b0ca856a4eb7a4dceba881765, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.66
+      value: 2.504
       objectReference: {fileID: 0}
     - target: {fileID: 4598036647883128, guid: d83bf03b0ca856a4eb7a4dceba881765, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3127,13 +3133,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4598036647883128, guid: d83bf03b0ca856a4eb7a4dceba881765, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.308714
       objectReference: {fileID: 0}
     - target: {fileID: 212654338621967974, guid: d83bf03b0ca856a4eb7a4dceba881765,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2e128c8d7d0a23147b4f18e66615e5e7,
+      objectReference: {fileID: 21300000, guid: 8eb96bbda40304fb389e725af4071373,
         type: 3}
     - target: {fileID: 1922660072123344, guid: d83bf03b0ca856a4eb7a4dceba881765, type: 2}
       propertyPath: m_Name
