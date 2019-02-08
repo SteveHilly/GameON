@@ -45,4 +45,9 @@ public class GameController : MonoBehaviour {
         score += points;
         GameObject.FindGameObjectWithTag("Canvas").SendMessage("UpdateUI",score);
     }
+
+    public void BackToMain()
+    {
+        SceneManager.LoadScene("1Start");
+    }
 }
