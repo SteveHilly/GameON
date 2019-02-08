@@ -9663,11 +9663,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalScale.x
-      value: 3.2608695
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalScale.y
-      value: 2.34375
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
         type: 2}

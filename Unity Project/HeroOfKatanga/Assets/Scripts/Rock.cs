@@ -13,6 +13,7 @@ public class Rock : Item
     }
     void SetKinematic()
     {
+        Debug.Log("Set Kinematic");
         myRB.isKinematic = !myRB.isKinematic;
         if (myRB.isKinematic)
         {
