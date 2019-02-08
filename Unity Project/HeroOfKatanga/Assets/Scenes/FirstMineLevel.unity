@@ -2880,7 +2880,7 @@ Animator:
   m_GameObject: {fileID: 314523196}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 502891586281d35438f3d3d202e5ac29, type: 2}
+  m_Controller: {fileID: 9100000, guid: 61f2d209398b0ca4fbbfd86e30bab86b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3210,7 +3210,7 @@ Animator:
   m_GameObject: {fileID: 384594972}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 502891586281d35438f3d3d202e5ac29, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3920bd27bfea36a4c9e098bcdf1344ff, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8824,11 +8824,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.5
+      value: 3.2608695
       objectReference: {fileID: 0}
     - target: {fileID: 4317394683296730, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 2.34375
       objectReference: {fileID: 0}
     - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
         type: 2}
@@ -8838,12 +8838,12 @@ Prefab:
     - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
         type: 2}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.31617647
       objectReference: {fileID: 0}
     - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
         type: 2}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.50010157
       objectReference: {fileID: 0}
     - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
         type: 2}
@@ -8859,6 +8859,31 @@ Prefab:
         type: 2}
       propertyPath: m_Radius
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 197010389
+      objectReference: {fileID: 0}
+    - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
+        type: 2}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212236896195989208, guid: 69ad6211d3be5a543a98816f83b350ab,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69ad6211d3be5a543a98816f83b350ab, type: 2}
