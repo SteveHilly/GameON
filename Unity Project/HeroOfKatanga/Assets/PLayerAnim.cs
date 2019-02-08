@@ -8,4 +8,9 @@ public class PLayerAnim : MonoBehaviour {
     {
         gameObject.GetComponent<Animator>().SetBool("Jumping", false);
     }
+
+    public void JumpStart()
+    {
+        GameObject.FindGameObjectWithTag("Player").SendMessage("AddJumpForce");
+    }
 }
