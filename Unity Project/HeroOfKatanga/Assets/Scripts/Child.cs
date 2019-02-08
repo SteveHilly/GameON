@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Child : MonoBehaviour {
 
+    [SerializeField]
+    GameObject kidImage;
+
     public void DestroyMe()
     {
+        kidImage.SetActive(true);
         Destroy(gameObject);
     }
 

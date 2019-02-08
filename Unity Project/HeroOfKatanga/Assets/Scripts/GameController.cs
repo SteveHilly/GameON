@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour {
     static GameController gameControllerInstance;
     [SerializeField]
     int score = 0;
+    public bool finishedMines = false;
 
 	// Use this for initialization
 	void Start () {

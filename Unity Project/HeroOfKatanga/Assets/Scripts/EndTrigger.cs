@@ -14,7 +14,8 @@ public class EndTrigger : MonoBehaviour
         if (activeScene == "FirstMineLevel")
             if (collision.CompareTag("Player") && GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().childCount == 3)
             {
-                SceneManager.LoadScene("SchoolLevel1");
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().finishedMines = true;
+                SceneManager.LoadScene("ClassRoom");
             }
         if (activeScene == "SchoolLevel1")
             if (collision.CompareTag("Player"))

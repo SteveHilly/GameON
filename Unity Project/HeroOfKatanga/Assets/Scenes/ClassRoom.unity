@@ -1211,6 +1211,7 @@ MonoBehaviour:
   Canvas: {fileID: 219593234}
   UIControlls: {fileID: 1619220859}
   TeacherText: {fileID: 1879956758}
+  secondTime: {fileID: 331149551}
 --- !u!114 &582651822
 MonoBehaviour:
   m_ObjectHideFlags: 0
